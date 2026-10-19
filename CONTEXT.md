@@ -1,5 +1,12 @@
 # Study context
 
+## Repository setup and documentation — 2026-10-19
+- Set up this workspace as a clone of `savi0909/practical-java`, on `main` tracking `origin/main`. The old Maven project was moved to a sibling backup after deletion was blocked; it was not deleted. Local IntelliJ configuration selects the installed Zulu JDK 21 and marks `src` as the source root. IDE files and compiled output are ignored.
+- Added the root README with clone/setup instructions, a PowerShell compilation and check sequence, and links to the existing study material. Java implementations are unchanged.
+- Recorded the learner's preference for separate modules, such as Rate Limiter Lab, for performance-testing runs and benchmarking. Future labs should keep workloads, configuration, instructions, and results together. No lab module was created or migrated in this documentation update.
+- Validation with Zulu OpenJDK 21.0.9: all 23 sources compiled with `--release 21 -Xlint:all -Werror`; all eight existing check runners passed. The rate limiter client example accepted login and search. The performance harness was not run; focused checks are not proof of concurrency correctness.
+- Checkout clarification: historical entries below refer to another workspace's independent `rate-limiter-lab/` repository. That ignored directory is absent from this clone; do not infer that its newer implementation is available here. The tracked rate limiter examples are in `src/ratelimiter/`. No study topic advanced during setup.
+
 ## Current-window implementation — 2026-10-19
 - Learner chose two requests per current five-second window with no idle carry-over. Implemented basic fixed-window request path in rate-limiter-lab, adapting the existing interface/per-user lock implementation; parent Java exercises unchanged. Each user ID is a tenant.
 - Java 21 strict compilation passed; focused quota, user isolation, exact boundary, minute-idle, and concurrent quota checks passed. No million-user benchmark or proof by test claimed. See lab CONTEXT.md for details; cleanup and advanced policies deferred.

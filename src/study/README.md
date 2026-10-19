@@ -2,6 +2,8 @@
 
 Each topic has its own code, runnable checks, and short README tutorial.
 Start with the implementation comments, then run its test main method.
+See the [root README](../../README.md) for Java 21 setup and commands to compile
+the complete repository and run all eight check runners.
 
 | Order | Topic | Status for this request |
 | --- | --- | --- |
@@ -27,3 +29,6 @@ java -cp out/study-basic study.expiringstore.ExpiringStoreTest
 
 Read the five new tutorials in order, then revisit one implementation at a time.
 Supplied examples and passing checks do not establish independent mastery.
+
+2026-10-19 setup validation: all 23 Java sources compiled targeting Java 21 with
+`-Xlint:all -Werror`; all eight check runners passed. Performance harness not run.
