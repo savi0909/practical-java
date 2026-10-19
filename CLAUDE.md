@@ -31,16 +31,18 @@ LLD/DSA problems (e.g. `Design Twitter`) and concurrency exercises (`temp/` —
   (compile, not yet critiqued). New problems go in the matching `dsa.<topic>` package.
   Package-private helper classes (`Node`, `Solution`, `App`) repeat across files, so problems
   that would clash get a subpackage (e.g. `dsa.tree.mindepth`, `dsa.backtracking.queens`).
-- Root-level classes (`User`, `Tweet`, `UserTweet`, `Followers`, `SampleDataGenerator`,
-  `TwitterApp`) are in the **default package** and compile/run standalone.
-- `temp/` (`FreshUserDataApp`, `SimulatedUserDataService`, `UserDataSnapshot`) is a
-  **separate, currently broken** concurrency exercise — it expects a `tweet` package
-  (see the `import tweet.UserDataSnapshot;` in `SimulatedUserDataService`) that doesn't
-  exist; the real classes sit in the default package instead. Leave broken unless asked
-  to fix — it's tracked separately from the Twitter follower/tweet exercise.
-- `pom.xml` `exec.mainClass` points at `temp.FreshUserDataApp`, so `mvn exec:java` won't
-  run until that package issue is resolved; run `TwitterApp` directly instead
-  (`javac`+`java` or add a second exec profile).
+- Twitter classes live in package `tweet` under `src/main/java/tweet`; the
+  `temp` concurrency exercise imports those types. Earlier notes about a missing
+  `tweet` package are obsolete.
+- `pom.xml` `exec.mainClass` points at `temp.FreshUserDataApp`. Run individual
+  exercises through their `main` methods; `mvn test` runs the rate limiter tests.
+
+## Performance labs and repository
+- Active IDE workspace: `C:\Users\abhis\hello`; publish to `savi0909/practical-java`
+  through `origin`. The `coding-java` remote retains the former repository destination.
+- Prefer separate modules, such as Rate Limiter Lab, for performance-testing runs
+  and benchmarks. Keep workloads, configuration, run instructions, and results
+  together in each lab. Record the JDK, environment, and measurement limits.
 
 ## Okta Round 2 practice mode (active)
 Prep for Okta Round 2 (60-min live coding, medium–hard, Java) is tracked in

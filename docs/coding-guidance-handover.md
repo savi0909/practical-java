@@ -32,7 +32,46 @@ The immediate practice objective is to convert an understandable approach into c
 
 Explain algorithm mechanisms in plain, precise language. Familiar enterprise terminology can provide context, but should not complicate the underlying algorithm.
 
+### Project-wide preparation update — 18 October 2026
+
+The candidate's priorities extend beyond this Okta round: Java coding interviews at
+Staff / Senior Staff / Principal level, plus Java language depth in concurrency,
+the JVM, performance, and modern Java. Use a four-week preparation horizon with
+roughly **2 hours/day for Java coding + concurrency** as the primary block.
+
+Bias exercise selection toward algorithms combined with practical Java engineering:
+thread-safe components, rate limiters, ID generators, caches, queues, executors,
+synchronization, and performance-sensitive implementation. Retain core algorithm
+coverage and the next queued graph traversal / dependency-ordering exercise.
+
+System design / distributed systems is a parallel secondary track, emphasizing IAM,
+gateways, Kafka, and gRPC. GraphQL is limited to architecture discussion; Go / Rust
+is deferred unless a specific role requires it. These are candidate preferences,
+not additional recruiter-confirmed requirements. Preserve the practice modes and
+assistance tracking below; no new attempt or mastery is implied by this update.
+
+### Company targeting update — 18 October 2026
+
+Primary targets are **Atlassian, Google, Meta, and comparable coding interviews**;
+secondary targets are **Adobe, Intuit, Target, Visa, Amazon**. These groups express
+candidate priorities, not difficulty tiers. Use the company-focus section in
+`learning-plan.md` for the four-week schedule and source boundaries.
+
+Within the two-hour daily block, allocate roughly 75 minutes to algorithms,
+30 to Java code design / concurrency, and 15 to retrieval or targeted Java depth.
+Keep graph traversal / dependency ordering next; bring trees and binary search
+forward, and cover basic DP/backtracking within the month. Preserve the existing
+Okta protocol when practicing for Okta. For other sessions, name the selected
+target or use a shared coding round; do not automatically introduce it as Okta.
+Company-specific drills are training recommendations unless recruiter guidance
+confirms the format. No new attempt or mastery is recorded by this planning update.
+
 ## 4. Explicit learning preferences
+
+Repository update (2026-10-19): use `C:\Users\abhis\hello` as the active IDE
+workspace and `savi0909/practical-java` as its publishing destination. Prefer
+separate modules, such as Rate Limiter Lab, for performance-testing runs and
+benchmarks, keeping workloads, configuration, instructions, and results together.
 
 The following preferences were expressed in this session:
 
@@ -203,7 +242,9 @@ Append one row per attempt. Assistance: independent / hint-assisted / guided / d
 
 | Date | Category | Task (one line) | Assistance | Concrete errors / gaps | Next to revisit |
 |---|---|---|---|---|---|
+| 2026-10-10 | Sliding window revisit | Longest substring without repeating characters; scaffold `dsa.slidingwindow.LongestSubstringWithoutRepeating` | — (scaffold and sample checks only; awaiting approach) | Implementation not attempted yet | Review approach, then implement |
 | 2026-10-10 | Sliding window | Longest substring without repeating characters (easy) | unrecorded (self-reported done) | — | Blind re-solve of a related variant |
 | 2026-10-10 | Sorting and intervals | Merge overlapping intervals (easy) | unrecorded (self-reported done) | — | Related interval pattern (insert / min removals) |
 | 2026-10-10 | Sliding window (extremum invariant) | Longest subarray with bounded spread (medium); scaffold `dsa.slidingwindow.LongestBoundedSpreadSubarray` | — (presented, awaiting approach; implementing in IDE) | — | — |
 | 2026-10-10 | Graph traversal / dependency ordering | Minimum rounds to finish tasks with prerequisites (-1 on cycle); scaffold `dsa.graph.MinRoundsToFinishTasks` | — (presented, awaiting approach; implementing in IDE) | — | — |
+| 2026-10-10 | Sorting and intervals revisit | Merge overlapping intervals; scaffold `dsa.arrays.MergeOverlappingIntervals` | — (scaffold and sample checks only; awaiting approach) | Implementation not attempted yet | Review approach, then implement |
