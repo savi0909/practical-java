@@ -1,5 +1,39 @@
 # Learning Plan — Principal Engineer Backend Interview Prep
 
+## Source organization — 2 November 2026
+
+Combined Rajat/Aryan coding-source material is now in [the project-local source index](interview-kb/linkedin-prep/index.md), with a detailed unexecuted handover. It does not replace the active diagnostic, add a schedule, or mark an exercise solved. The existing 19-group / 256-candidate bank remains the exercise inventory until genuine source gaps are deliberately merged. Practical LLD is owned by JavaPracticalCoding; HLD and API contracts by System-Design.
+
+## Additional source review — 2 November 2026
+
+Reviewed the LinkedIn source index, all 171 prompt summaries in questions.json,
+the handover and the maintained bank. This was a local catalog review, not a new
+live-feed review or a completed question-by-question reconciliation. Coverage is
+partial; repeated posts do not establish employer frequency.
+
+- Use the source catalog as supplementary coverage, not a new 171-question assignment.
+- Pending curation: map prompts by contract to existing equivalent, meaningful
+  variant, genuine gap or another project's responsibility. Preserve source IDs,
+  stable bank groups and attempt history; integrate only useful gaps into the
+  existing bank and source ledger. No inventory additions were made in this review.
+- Existing overlap includes running median, K-way merge, Word Ladder, sliding-window
+  maximum, LIS and Word Break. Split bundled contracts such as maximum subarray vs
+  matrix sums and 1D vs 2D rainwater before selecting exercises. RG-142 and RG-276
+  overlap on maximum subarray despite separate source-catalog IDs.
+- Candidate supplementary depth: Java concurrency/future aggregation and deadlock
+  diagnosis, JVM memory diagnosis, and Spring transaction/JPA/connection-pool
+  debugging. Check existing material before adding drills; basic definitions can
+  serve as revision checks. These are recommendations, not new assignments.
+- Current action remains Group Anagrams, awaiting learner approach/code. Merge
+  Intervals and Total Busy Time per Employee remain provisional follow-ups, with
+  advancement based on actual performance and learner selection. The fallback
+  arrays → queues → heaps → graphs sequence remains unchanged.
+- Coding/Java/JVM/concurrency and Spring/JPA/JDBC programming belong here. New
+  practical component/LLD work belongs in `C:/Users/abhis/IdeaProjects/Test`;
+  HLD, distributed systems and API-contract work in `D:/AA-DesignAndArch-Prep`.
+  Keep topic answer placeholders empty until requested. This review records no
+  practice attempt, implementation, solve or mastery.
+
 Living document. Study order groups problems by dependency — each phase leans on a
 pattern introduced in the phase before it. Update this file whenever new problems are
 added or the order changes; don't let it go stale.
@@ -11,7 +45,148 @@ not yet reviewed/critiqued here) · 🔲 not yet added
 > mean you solved it independently (see `coding-guidance-handover.md` §5). Count a category as
 > done only after a blind re-solve with no help; the 📥 "twin" drills below are for that.
 
-## Current preparation priorities — 2026-10-18
+## Active Atlassian diagnostic — 2026-10-31
+
+Practice scaffolds added on request in `arrays.ref` (no solutions or attempts):
+`ValidAnagramPractice` → `GroupAnagramsPractice` → `GroupShiftedStringsPractice`
+→ `TopKFrequentWordsPractice` → `FindAnagramStartsPractice`.
+Each contains a contract, constraints, sample data/expected outputs and a TODO body.
+This is an optional practice set, not a replacement for the selected diagnostic.
+Group Anagrams remains current; advance only with learner permission.
+
+Current exercise: **Group Anagrams**, selected next after the learner requested
+continuation. Presented; awaiting approach/code. Prior reference/demo material
+exists, so this is a revisit diagnostic, not an unseen problem. All-pairs Two Sum
+remains demonstrated; agreement with its explanation does not establish mastery.
+
+Latest learner selection: begin with a 60-minute Java DSA diagnostic covering
+HashMap, sorting and interval processing, then a separate 60-minute Code Design
+diagnostic. Use the results to redistribute the four-week Atlassian preparation;
+do not treat every topic as fresh learning. Present one problem at a time.
+
+Latest refinement: start with **Two Sum**, then provisionally Group Anagrams →
+Merge Intervals → Total Busy Time per Employee, increasing difficulty from actual
+performance and advancing only with learner permission. Keep the combined meeting
+task for later in Week 1 if ready. Two Sum is presented, awaiting independent
+approach/code; timing and assistance are not yet recorded. The meeting task was
+previously presented but not attempted and is now deferred.
+This selected diagnostic takes precedence over the pending fixed-window exercise,
+which remains pending. The general sequence below remains the fallback afterward.
+
+Two Sum update: learner supplied a correct HashMap implementation after a complement
+hint and reported passing samples (hint-assisted; time unmeasured). Reviewed in chat;
+the learner requested that critique stay in chat and their code remain untouched.
+On explicit implementation request, added `arrays.ref.TwoSumUnSortedAllPairs`:
+every distinct index pair, duplicates included; no match returns {{-1,-1}}.
+Java 21 compilation and all 11 sample checks passed. This variant is demonstrated,
+not an independent solve. The original single-pair class was unchanged.
+
+## Default DSA sequence — 2026-10-25
+
+Latest user override (2026-10-25): **arrays → queues → priority queues/heaps →
+graphs**, explicitly including general-graph BFS and DFS. This takes precedence
+over the Grokking chapter order. Use Grokking's numbered lessons within the selected
+pattern when compatible; retain its remaining chapters as the reference sequence.
+
+| Study phase | Coverage |
+| --- | --- |
+| 1. Arrays and array-based patterns | Arrays, hashing/prefix sums, sliding windows, two pointers and intervals; select relevant drills without requiring the full bank |
+| 2. Queues and deques | FIFO queue operations in Java, ArrayDeque, circular queues and deque/monotonic-queue applications |
+| 3. Priority queues and heaps | Java PriorityQueue and comparators, min/max heaps, Top K, K-way merge and Two Heaps after basic heap mechanics |
+| 4. Graphs | Representation, BFS, iterative/recursive DFS, visited state, cycles and disconnected components; then dependency ordering/topological sort |
+
+Tree BFS/DFS are useful related exercises but do not substitute for general-graph
+traversal. Queue familiarity supports BFS; iterative DFS uses a stack. Ordinary
+BFS/DFS do not require a priority queue; heaps support later weighted shortest-path
+work if selected. No new attempt, solve or mastery is recorded by this ordering.
+
+Explain any recommended deviation, including its reason and return point, before
+changing this sequence. Do not jump to graphs merely because an older handover
+queued them. No daily quotas or forced completion of each phase are imposed.
+
+The local Grokking folder remains the primary pattern/question reference. Source root:
+`D:\one-drive\OneDrive\AbhishekMittal\Coding\Grokking the Coding Interview by educative.io (z-lib.org)\Educative.io - Grokking the Coding Interview - Patterns for Coding Questions`.
+This supersedes the previously queued graph-first recommendation and historical
+company/week allocations as default ordering. Retain practice modes and attempt
+history. The user may choose problems or skip demonstrated material; no quotas apply.
+
+| Folder | Reference pattern order (subject to the user override above) |
+| --- | --- |
+| 2 | Sliding Window |
+| 3 | Two Pointers |
+| 4 | Fast & Slow Pointers |
+| 5 | Merge Intervals |
+| 6 | Cyclic Sort |
+| 7 | In-place Reversal of a Linked List |
+| 8 | Tree Breadth First Search |
+| 9 | Tree Depth First Search |
+| 10 | Two Heaps |
+| 11 | Subsets |
+| 12 | Modified Binary Search |
+| 13 | Bitwise XOR |
+| 14 | Top K Elements |
+| 15 | K-way Merge |
+| 16 | 0/1 Knapsack (Dynamic Programming) |
+| 17 | Topological Sort (Graph) |
+
+Folder 1 is course introduction; folder 18 is Miscellaneous (Kth Smallest Number),
+followed by folder 19 Conclusions. Sort numerically, not lexicographically.
+Within each chapter, follow numbered lessons. A challenge and its solution review
+are one exercise; multiple numbered HTML exports are not separate problems.
+Keep source difficulty labels as source metadata, distinct from our learning tiers.
+
+**Starting point:** Maximum Sum Subarray of Size K in Sliding Window was presented
+on 2026-10-22; no approach, implementation or completed attempt is recorded.
+Next in that chapter are Smallest Subarray with a Given Sum, Longest Substring
+with K Distinct Characters and Fruits into Baskets. Resume the presented exercise
+unless the learner selects otherwise; resource review does not count as practice.
+
+The former prerequisite suggestions are now part of the selected sequence:
+heap fundamentals precede Two Heaps, and general graph BFS/DFS precede topological
+sort. Other deviations still need a concrete explanation before changing the plan.
+
+**Additional coverage:** use the existing bank to fill gaps such as standalone
+hashing/prefix sums, general graph traversal, monotonic stacks/deques, tries and
+practical Java components. Keep these as supplements rather than silently replacing
+the main order; Java LLD/concurrency and system design retain their separate tracks.
+The bank's stable group IDs and problem counts have not been changed by this review.
+
+Review scope: all immediate chapter/lesson directories, selected HTML exports'
+embedded course navigation. Full solutions and unnamed challenge bodies were not
+exhaustively reviewed. Do not copy the archive or claim its implementations verified.
+
+## Consolidated problem bank — 2026-10-21
+
+Latest user priorities: arrays, hashing, sliding windows, intervals, heaps, graphs,
+scheduling algorithms, Java schedulers, and caches. The
+[coding / DSA / LLD knowledge base](interview-kb/README.md) contains 19 groups and
+256 candidate problems/drills, categorized within each topic as Basic,
+Intermediate and Complex. Ishan's sent-resource history, LeetCode Top Interview
+150, NeetCode Blind 75 and relevant entries from the wider NeetCode problem index
+are integrated into this bank. Source links and access limits are recorded there.
+
+Current preference: a **flexible six-week horizon**, with the user choosing which
+problems to attempt in each category and when. Their personal target is roughly
+**100–200 selected problems**; it is **not a limit on the KB**. The wider reference
+index includes 768 algorithm entries after excluding its JavaScript category;
+these overlap the selected bank and are not an extra workload. Implement in Java;
+exclude Python-, JavaScript- and other language-specific exercises.
+
+No day/week assignments or per-category quotas are imposed. The earlier
+three-week proposal and the historical four-week allocation below are superseded
+as scheduling instructions. Retain the dependency map and existing Okta practice
+protocol/log. The Grokking sequence above now supersedes the historical
+graph traversal/dependency-ordering queue. No new attempt, solve or
+mastery is recorded by resource consolidation.
+
+System-design problems, learning topics and reading links now belong in
+[the separate system-design KB](D:/java-projects/docs/interview-kb/README.md).
+Its workspace context is `D:/java-projects/docs/PROJECT_CONTEXT.md`. Practical Java
+component/LLD study stays in `C:/Users/abhis/IdeaProjects/Test`, with its own memory
+and context. Reusable workflows: `$java-coding-prep` and `$practical-java-lld`;
+current attempt history remains in this project's handover.
+
+## Historical preparation allocation — 2026-10-18 (superseded by the preferences above)
 
 Repository update (2026-10-19): the active IDE project is `C:\Users\abhis\hello`,
 published to `savi0909/practical-java`. Prefer separate modules, such as Rate
@@ -30,9 +205,9 @@ synchronization, and performance-sensitive implementation. Keep core algorithms 
 rotation and use the phases below as a dependency map, not a mandatory linear syllabus.
 These exercise families are selection priorities, not newly assigned or completed problems.
 
-System design / distributed systems runs as a parallel secondary track. Prioritize
-IAM, gateways, Kafka, and gRPC for architectural depth; cover GraphQL only to
-architecture-discussion level. Defer Go / Rust unless a specific role requires them.
+System-design / distributed-systems priorities and learning now live in
+[D:/java-projects](D:/java-projects/docs/interview-kb/README.md), per the
+2026-10-21 workspace split.
 
 The Okta practice protocol and recorded attempts remain in force. The next queued
 category remains graph traversal and dependency ordering; these broader preferences
@@ -125,7 +300,7 @@ All paths under `src/main/java/`. `dsa.*` = algorithm drills, `lld.*` = low-leve
 | Backtracking | `dsa.backtracking` (+ `.queens`, `.sudoku`, `.maze`, `.knighttour`, `.graphcoloring`, `.hamiltonian`) |
 | DP | `dsa.dp`, `arrays.ref.LongestIncreasingSubsequence` |
 | LLD | `lld.cache` (+ `.lfu`, `.listbased`), `tweet`, `bank`, `access` |
-| Logging framework design | `logfk` (design notes only; implementation pending) |
+| Logging framework | `logfk` (configurable synchronous/async backend, appenders and layouts) |
 
 ## Phase 0 — Array basics (optional warm-up, ~1 session)
 - 📥 `dsa.arrays` — `AlternatingSums`, `AddBorder`, `AllLongestStrings`, `AlmostIncreasingSequence`,
@@ -299,11 +474,15 @@ binary search is classic-only, and composite structures sit late (Phase 11) desp
 
 ## Concurrency reference examples
 
-- Design in progress (2026-10-19): `logfk` — application API versus backend,
-  logger/event/appender/layout contracts, immutable startup configuration, and a
-  synchronous console/file pipeline followed by a bounded async exploration.
-  See `src/main/java/logfk/README.md`; design only, no implementation or completion
-  claim. Start with contracts, then one working console path before file/config I/O.
+- ✅ `logfk` (2026-10-20) — demonstrated logging framework: Logger/LoggerFactory,
+  inherited levels/OFF, immutable events, text/JSON layouts, console/file/bounded-memory
+  appenders, buffered UTF-8 I/O, strict startup properties and typed configuration,
+  bounded async BLOCK/DROP_NEWEST queue, counters, flush barriers and resource ownership.
+  Focused checks cover formatting/configuration, concurrent writes, queue saturation,
+  interruption, startup cleanup, recursive callbacks and shutdown/flush races.
+  Run `logfk.Main`; walkthrough, limitations and follow-ups are in its README.
+  Reference example, not an independent solve or a performance benchmark. Next:
+  rotation/retention, scoped context, batching/timer-flush lab, and provider integration.
 - ✅ `ratelimiter.fixedwindow.FixedWindowRateLimiter` — demonstrated `RateLimiter` abstraction,
   immutable per-user `RateLimitConfig`, default/override provider, epoch-aligned windows,
   atomic admission with `ConcurrentHashMap.compute`, and injected clock. Configuration

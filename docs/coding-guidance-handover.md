@@ -1,6 +1,64 @@
 # Coding Practice Handover
 Prepared for Abhishek Mittal | 10 October 2026 | PE – Q and A
 
+## Active session — Atlassian diagnostics, 31 October 2026
+
+Current task: **Group Anagrams**. Learner requested the next problem after the
+all-pairs explanation; present the contract and await approach/code. This is a
+revisit because prior reference/demo material exists, not an unseen diagnostic.
+Do not infer independent mastery from agreement with the all-pairs explanation.
+
+Latest result: learner supplied the single-pair HashMap solution after a complement
+hint and reported passing tests. Review found it correct for the exercise bounds;
+assistance is hint-assisted and time unmeasured. Critique must stay in chat unless
+file edits are explicitly requested. On request, supplied the separate all-index-pairs
+class `arrays.ref.TwoSumUnSortedAllPairs`, compiled with Java 21 and passed 11 sample
+checks (duplicates, no match, empty/singleton, overflow and input preservation).
+All-pairs is demonstrated, not an independent attempt. Original code was unchanged.
+These results supersede the pending-implementation descriptions below.
+
+Learner selected a 60-minute DSA diagnostic in Java, then a separate 60-minute
+Code Design diagnostic, to inform a four-week Atlassian preparation window.
+Start with HashMap, sorting and interval processing; one problem at a time.
+Latest refinement: **Two Sum** is the first diagnostic; await independent approach
+and Java implementation. Review correctness, Java fluency, edge cases and complexity.
+Provisional progression: Group Anagrams → Merge Intervals → Total Busy Time per
+Employee, with the combined meeting task deferred until later in Week 1 if ready.
+Increase difficulty based on performance; no solutions or next task without the
+learner's request. No timer has started and no independent completion is established.
+Continue Two Sum rather than the older
+fixed-window starting point; retain all prior attempts and the general DSA sequence.
+Do not present the Code Design task until the learner requests continuation.
+
+Two Sum support supplied: expected-time comparison of sorting versus hashing and
+a complement/map hint. On request, added `main` and eight sample checks in
+`arrays.ref.TwoSumUnSorted`, leaving the algorithm unimplemented. Java 21 compile
+and launch succeeded; output correctly reports implementation pending. No sample
+pass or independent solve is claimed. Record the approach attempt as hint-assisted
+if it uses the supplied hint; timing remains unmeasured.
+
+## Current workspace context — 21 October 2026
+
+Current sequence preference — 25 October 2026 (latest user override): arrays →
+queues → priority queues/heaps → graphs, explicitly covering general-graph BFS
+and DFS before dependency ordering/topological sort. This overrides strict Grokking
+chapter order and the historical graph-first queue. Grokking remains the primary
+reference and supplies lesson order within compatible selected patterns. Source path and
+full ordered chapter list are in `learning-plan.md` under Default DSA sequence.
+Explain the concrete prerequisite or interview-driven reason before proposing any
+departure; do not silently reorder. Existing topic bank and attempt history remain.
+Maximum Sum Subarray of Size K was presented on 22 October; no attempt is recorded.
+Folder/lesson inventory and selected HTML navigation reviewed, not all solutions.
+
+Use `learning-plan.md` for current preparation preferences: flexible six weeks,
+learner-selected problems, no imposed daily/weekly allocation. This supersedes
+historical four-week scheduling passages below. Preserve the practice protocol,
+attempt log; use the latest sequence above for next-problem selection. Coding/DSA bank: `interview-kb/README.md`;
+workflow: `$java-coding-prep`. Practical component study has its own direct-solution
+mode and context in `C:/Users/abhis/IdeaProjects/Test`. System-design problems and
+learning have moved to `D:/java-projects/docs/interview-kb/README.md`.
+This context update records no new practice, completion or mastery.
+
 ## 1. Purpose and scope
 
 This note enables another model to continue coding preparation without restarting the session. It records the interview requirements, learning preferences, observed progress, category sequence, and practice method.
@@ -223,13 +281,13 @@ General validation dimensions include empty or smallest permitted input, repeate
 
 The latest substantive topic was bounded heap selection. The candidate proposed the optimization of comparing against the retained minimum before replacing it; the assistant clarified inspection versus removal and showed a short implementation fragment.
 
-When Abhishek asks for the next problem, move to **graph traversal and dependency ordering**, consistent with the planned sequence. Present one exercise without revealing the algorithm or implementation. If he asks to revisit heaps, continue from conditional replacement rather than repeating the entire counting explanation.
+Current override (2026-10-25): follow the Grokking sequence in `learning-plan.md`; resume Maximum Sum Subarray of Size K unless the learner selects otherwise. The former graph-first queue is historical. Present one exercise without revealing the algorithm or implementation. If he asks to revisit heaps, continue from conditional replacement rather than repeating the entire counting explanation.
 
 Begin with a brief statement that practice is continuing for Okta Round 2. Do not repeat this whole handover or begin with a broad syllabus.
 
 Suggested instruction to the next model:
 
-> Continue Abhishek's Okta Round 2 coding preparation in Java. Use this handover as the current practice state. Present one unseen exercise at a time and let him explain his approach. Do not reveal solutions unless he asks. Provide simple Java code and precise explanations when requested. Define complexity variables. Distinguish demonstrated understanding from independent coding. The next planned category is graph traversal and dependency ordering.
+> Continue Abhishek's Okta Round 2 coding preparation in Java. Use this handover as the current practice state. Present one unseen exercise at a time and let him explain his approach. Do not reveal solutions unless he asks. Provide simple Java code and precise explanations when requested. Define complexity variables. Distinguish demonstrated understanding from independent coding. Follow the latest Grokking chapter/lesson sequence in learning-plan.md instead of the historical graph-first queue.
 
 ## 12. Source boundary
 
@@ -242,6 +300,10 @@ Append one row per attempt. Assistance: independent / hint-assisted / guided / d
 
 | Date | Category | Task (one line) | Assistance | Concrete errors / gaps | Next to revisit |
 |---|---|---|---|---|---|
+| 2026-10-31 | Hashing/grouping revisit | Group Anagrams | — (presented, awaiting approach/code; prior demo exists) | Not assessed; time unmeasured | Review key choice, grouping and complexity |
+| 2026-10-31 | Hashing diagnostic | Two Sum | hint-assisted | Correct submitted code; learner reports samples pass; time unmeasured. Discussed single lookup, initialization and fallback. | Blind independent revisit |
+| 2026-10-31 | Hashing follow-up | Two Sum: all index pairs | demonstrated | Assistant implementation requested; Java 21 compile and 11 samples passed; no learner attempt | Explain storing multiple indices and output-sensitive complexity |
+| 2026-10-31 | Atlassian DSA diagnostic: hashing, sorting, intervals | Total busy duration per employee; original adaptation | — (presented, awaiting approach/code; timing not started) | Not assessed | Review approach, implementation and tests |
 | 2026-10-10 | Sliding window revisit | Longest substring without repeating characters; scaffold `dsa.slidingwindow.LongestSubstringWithoutRepeating` | — (scaffold and sample checks only; awaiting approach) | Implementation not attempted yet | Review approach, then implement |
 | 2026-10-10 | Sliding window | Longest substring without repeating characters (easy) | unrecorded (self-reported done) | — | Blind re-solve of a related variant |
 | 2026-10-10 | Sorting and intervals | Merge overlapping intervals (easy) | unrecorded (self-reported done) | — | Related interval pattern (insert / min removals) |
