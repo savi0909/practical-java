@@ -1,0 +1,4023 @@
+{
+  "window": [
+    "2026-05-02",
+    "2026-11-02"
+  ],
+  "coverage": "partial",
+  "owner": "coding-java",
+  "topics": {
+    "concurrency": [
+      "java-spring-boot",
+      "Java concurrency and thread pools"
+    ],
+    "collections": [
+      "java-spring-boot",
+      "Collections, equality and copying"
+    ],
+    "jvm": [
+      "java-spring-boot",
+      "JVM, garbage collection and memory"
+    ],
+    "container": [
+      "java-spring-boot",
+      "Spring container, injection and AOP"
+    ],
+    "boot": [
+      "java-spring-boot",
+      "Boot startup, configuration and profiles"
+    ],
+    "transactions": [
+      "java-spring-boot",
+      "Spring transactions and proxies"
+    ],
+    "async": [
+      "java-spring-boot",
+      "Spring events and async methods"
+    ],
+    "rest": [
+      "java-spring-boot",
+      "REST endpoints, validation and errors"
+    ],
+    "jpa": [
+      "java-spring-boot",
+      "JPA, Hibernate and query performance"
+    ],
+    "pooling": [
+      "java-spring-boot",
+      "JDBC and connection pooling"
+    ],
+    "security": [
+      "java-spring-boot",
+      "Spring Security and API security"
+    ],
+    "testing": [
+      "java-spring-boot",
+      "JUnit, Mockito and integration testing"
+    ],
+    "streams": [
+      "java-spring-boot",
+      "Streams, lambdas and functional interfaces"
+    ],
+    "array-coding": [
+      "java-coding",
+      "Arrays, windows and dynamic programming"
+    ],
+    "list-coding": [
+      "java-coding",
+      "Linked-list coding"
+    ],
+    "graph-coding": [
+      "java-coding",
+      "Graphs and dependency ordering"
+    ],
+    "heap-coding": [
+      "java-coding",
+      "Heaps and streaming statistics"
+    ],
+    "tree-coding": [
+      "java-coding",
+      "Trees and traversal coding"
+    ],
+    "string-coding": [
+      "java-coding",
+      "Strings, parsing and character inventories"
+    ],
+    "file-coding": [
+      "java-coding",
+      "File collections and filesystem operations"
+    ],
+    "java-language": [
+      "java-spring-boot",
+      "Java language, OOP and exceptions"
+    ],
+    "binary-coding": [
+      "java-coding",
+      "Binary search on the answer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "A02",
+      "activity_id": "7467787188085088257",
+      "title": "Eight coding and eight system-design prompts",
+      "author": "Aryan Raskar",
+      "url": "https://www.linkedin.com/posts/aryan-raskar-077640253_i-interviewed-at-a-startup-rejected-i-interviewed-activity-7467787188085088257--Ny8",
+      "estimated_date_ist": "2026-06-03",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public indexed post body or visible source excerpt; feed enumeration incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web"
+    },
+    {
+      "id": "A03",
+      "activity_id": "7464888060791615488",
+      "title": "Mixed-language list: only backend-neutral and algorithm items retained",
+      "author": "Aryan Raskar",
+      "url": "https://www.linkedin.com/posts/aryan-raskar-077640253_i-am-%F0%9D%97%B5%F0%9D%97%B6%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-you-as-a-%F0%9D%97%A6%F0%9D%97%BC%F0%9D%97%B3%F0%9D%98%81%F0%9D%98%84%F0%9D%97%AE%F0%9D%97%BF-activity-7464888060791615488-hyNu",
+      "estimated_date_ist": "2026-05-26",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public indexed post body or visible source excerpt; feed enumeration incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web"
+    },
+    {
+      "id": "AL01",
+      "activity_id": "",
+      "title": "Earlier R2 notes: windows, heaps, intervals, graph traversal and components",
+      "author": "Aryan Raskar",
+      "url": "C:/Users/abhis/hello/docs/interview-kb/sources.md",
+      "estimated_date_ist": "2026-10-20",
+      "date_basis": "Inherited feed dates; AL02 combines two dates, not two verified posts",
+      "access": "Local 2026-10-21 ledger R2; no fresh feed/permalink verification",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "inherited-local-ledger"
+    },
+    {
+      "id": "AL02",
+      "activity_id": "",
+      "title": "Earlier R2 notes jointly cite October 12 and September 3",
+      "author": "Aryan Raskar",
+      "url": "C:/Users/abhis/hello/docs/interview-kb/sources.md",
+      "estimated_date_ist": "2026-10-12",
+      "date_basis": "Inherited feed dates; AL02 combines two dates, not two verified posts",
+      "access": "Local 2026-10-21 ledger R2; no fresh feed/permalink verification",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "inherited-local-ledger"
+    },
+    {
+      "id": "L01",
+      "activity_id": "",
+      "title": "Cinema scheduling, corrected prices, word search and character counts",
+      "url": "C:/Users/abhis/hello/docs/interview-kb/sources.md",
+      "estimated_date_ist": "2026-10-15",
+      "date_basis": "Feed date reported in the local 2026-10-21 ledger; not reverified live",
+      "access": "Inherited R1 feed notes; direct post permalinks unavailable",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "inherited-local-ledger",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "L02",
+      "activity_id": "",
+      "title": "Parallel calls, student averages and circuit breaker",
+      "url": "C:/Users/abhis/hello/docs/interview-kb/sources.md",
+      "estimated_date_ist": "2026-10-14",
+      "date_basis": "Feed date reported in the local 2026-10-21 ledger; not reverified live",
+      "access": "Inherited R1 feed notes; direct post permalinks unavailable",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "inherited-local-ledger",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "L04",
+      "activity_id": "",
+      "title": "Streams, similar movies, minimum window and N-ary trees",
+      "url": "C:/Users/abhis/hello/docs/interview-kb/sources.md",
+      "estimated_date_ist": "2026-09-30",
+      "date_basis": "Feed date reported in the local 2026-10-21 ledger; not reverified live",
+      "access": "Inherited R1 feed notes; direct post permalinks unavailable",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "inherited-local-ledger",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "L05",
+      "activity_id": "",
+      "title": "Snake, file collections, corrected prices and All O(1)",
+      "url": "C:/Users/abhis/hello/docs/interview-kb/sources.md",
+      "estimated_date_ist": "2026-09-20",
+      "date_basis": "Feed date reported in the local 2026-10-21 ledger; not reverified live",
+      "access": "Inherited R1 feed notes; direct post permalinks unavailable",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "inherited-local-ledger",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "L06",
+      "activity_id": "",
+      "title": "Custom pool, dependencies, coordination, pub/sub and files",
+      "url": "C:/Users/abhis/hello/docs/interview-kb/sources.md",
+      "estimated_date_ist": "2026-09-02",
+      "date_basis": "Feed date reported in the local 2026-10-21 ledger; not reverified live",
+      "access": "Inherited R1 feed notes; direct post permalinks unavailable",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "inherited-local-ledger",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "L07",
+      "activity_id": "",
+      "title": "Algorithm categories recorded in the earlier feed review",
+      "url": "C:/Users/abhis/hello/docs/interview-kb/sources.md",
+      "estimated_date_ist": "2026-08-27",
+      "date_basis": "Feed date reported in the local 2026-10-21 ledger; not reverified live",
+      "access": "Inherited R1 feed notes; direct post permalinks unavailable",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "inherited-local-ledger",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S03",
+      "activity_id": "7512715295317372928",
+      "title": "Ten Transactional scenarios and an opening rollback example",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_take-spring-boot-off-your-resume-if-you-cant-activity-7512715295317372928-fUSr",
+      "estimated_date_ist": "2026-10-05",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S04",
+      "activity_id": "7512514460280983553",
+      "title": "Hikari connection exhaustion",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_hikaripool-1-connection-is-not-available-activity-7512514460280983553-1npb",
+      "estimated_date_ist": "2026-10-04",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S06",
+      "activity_id": "7511822801188651008",
+      "title": "Garbage collection and memory failures",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_138k-in-the-us-31lpa-to-39lpa-in-india-activity-7511822801188651008-PBOp",
+      "estimated_date_ist": "2026-10-02",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S08",
+      "activity_id": "7508364623356518400",
+      "title": "Java, Spring, Hibernate and five system designs",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_the-questions-a-25-to-30-lpa-java-backend-activity-7508364623356518400--0sc",
+      "estimated_date_ist": "2026-09-23",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S09",
+      "activity_id": "7507635065288376320",
+      "title": "Java backend roadmap: topic inventory",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_disappear-till-dec-2026-and-clear-every-activity-7507635065288376320-9uai",
+      "estimated_date_ist": "2026-09-21",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S11",
+      "activity_id": "7504754028757745664",
+      "title": "Ten failures at scale",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_system-design-on-sunday-10-ways-a-system-activity-7504754028757745664-XmRK",
+      "estimated_date_ist": "2026-09-13",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S12",
+      "activity_id": "7502570148743176192",
+      "title": "Twenty Java production scenarios",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_the-java-first-round-changed-in-2026-it-activity-7502570148743176192-MMjj",
+      "estimated_date_ist": "2026-09-07",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S13",
+      "activity_id": "7457802849473708033",
+      "title": "Forty SDE questions, including author comment lists",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_these-40-questions-show-up-in-80-of-mid-to-senior-activity-7457802849473708033-y22W",
+      "estimated_date_ist": "2026-05-06",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S16",
+      "activity_id": "7471878014763671572",
+      "title": "Core Java, Streams and Spring question inventory",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_top-java-and-spring-boot-interview-questions-activity-7471878014763671572-GQhW",
+      "estimated_date_ist": "2026-06-14",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S17",
+      "activity_id": "7482306302753501184",
+      "title": "Thirty-five backend interview questions",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_i-am-hiring-you-as-a-backend-engineer-if-activity-7482306302753501184-RBKK",
+      "estimated_date_ist": "2026-07-13",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S19",
+      "activity_id": "7493660739182903296",
+      "title": "Memory exhaustion after thirty days",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_one-of-the-toughest-scenario-questions-asked-activity-7493660739182903296-iky1",
+      "estimated_date_ist": "2026-08-13",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S21",
+      "activity_id": "7470105417298333696",
+      "title": "Ten practical Spring Boot production questions",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_if-you-really-know-spring-boot-you-should-activity-7470105417298333696-UtJ4",
+      "estimated_date_ist": "2026-06-09",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    },
+    {
+      "id": "S22",
+      "activity_id": "7500083679365570561",
+      "title": "JDBC scenario guide announcement: two visible themes",
+      "url": "https://www.linkedin.com/posts/rajatgajbhiye_jdbc-scenario-questions-activity-7500083679365570561-VSNA",
+      "estimated_date_ist": "2026-08-31",
+      "date_basis": "Inferred from activity ID, not independently verified publication metadata",
+      "access": "Public search-indexed post text; live post/feed access incomplete",
+      "reviewed_on": "2026-11-02",
+      "evidence_class": "public-web",
+      "author": "Rajat Gajbhiye"
+    }
+  ],
+  "questions": [
+    {
+      "id": "RG-021",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "Predict rollback after an order save throws IOException.",
+      "occurrences": [
+        {
+          "id": "RG-021",
+          "topic": "transactions",
+          "source": "S03",
+          "source_item": "opening",
+          "kind": "question",
+          "prompt": "Predict rollback after an order save throws IOException.",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-022",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "Does same-class invocation honor REQUIRES_NEW?",
+      "occurrences": [
+        {
+          "id": "RG-022",
+          "topic": "transactions",
+          "source": "S03",
+          "source_item": "1",
+          "kind": "question",
+          "prompt": "Does same-class invocation honor REQUIRES_NEW?",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-023",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "What happens on a private transactional method?",
+      "occurrences": [
+        {
+          "id": "RG-023",
+          "topic": "transactions",
+          "source": "S03",
+          "source_item": "2",
+          "kind": "question",
+          "prompt": "What happens on a private transactional method?",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-125",
+          "topic": "transactions",
+          "source": "S12",
+          "source_item": "9",
+          "kind": "question",
+          "prompt": "Explain an ineffective private transactional method.",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-024",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "What changes for a public final transactional method?",
+      "occurrences": [
+        {
+          "id": "RG-024",
+          "topic": "transactions",
+          "source": "S03",
+          "source_item": "3",
+          "kind": "question",
+          "prompt": "What changes for a public final transactional method?",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-025",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "Without a service transaction, does an earlier repository save survive a later failure?",
+      "occurrences": [
+        {
+          "id": "RG-025",
+          "topic": "transactions",
+          "source": "S03",
+          "source_item": "4",
+          "kind": "question",
+          "prompt": "Without a service transaction, does an earlier repository save survive a later failure?",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-026",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "What happens when an outer method catches an inner transactional failure?",
+      "occurrences": [
+        {
+          "id": "RG-026",
+          "topic": "transactions",
+          "source": "S03",
+          "source_item": "5",
+          "kind": "question",
+          "prompt": "What happens when an outer method catches an inner transactional failure?",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-027",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "Does changing a managed entity persist without save()?",
+      "occurrences": [
+        {
+          "id": "RG-027",
+          "topic": "transactions",
+          "source": "S03",
+          "source_item": "6",
+          "kind": "question",
+          "prompt": "Does changing a managed entity persist without save()?",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-028",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "Which isolation applies when joining an existing transaction?",
+      "occurrences": [
+        {
+          "id": "RG-028",
+          "topic": "transactions",
+          "source": "S03",
+          "source_item": "9",
+          "kind": "question",
+          "prompt": "Which isolation applies when joining an existing transaction?",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-029",
+      "topic": "async",
+      "owner": "coding-java",
+      "prompt": "Does an asynchronous insert roll back with its caller?",
+      "occurrences": [
+        {
+          "id": "RG-029",
+          "topic": "async",
+          "source": "S03",
+          "source_item": "7",
+          "kind": "question",
+          "prompt": "Does an asynchronous insert roll back with its caller?",
+          "also_from": [],
+          "original_topic": "async",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-030",
+      "topic": "async",
+      "owner": "coding-java",
+      "prompt": "Can a published event send email before the transaction rolls back?",
+      "occurrences": [
+        {
+          "id": "RG-030",
+          "topic": "async",
+          "source": "S03",
+          "source_item": "8",
+          "kind": "question",
+          "prompt": "Can a published event send email before the transaction rolls back?",
+          "also_from": [],
+          "original_topic": "async",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-032",
+      "topic": "pooling",
+      "owner": "coding-java",
+      "prompt": "Investigate connections held across remote calls or long processing loops.",
+      "occurrences": [
+        {
+          "id": "RG-032",
+          "topic": "pooling",
+          "source": "S04",
+          "source_item": "context.1",
+          "kind": "question",
+          "prompt": "Investigate connections held across remote calls or long processing loops.",
+          "also_from": [],
+          "original_topic": "pooling",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-033",
+      "topic": "pooling",
+      "owner": "coding-java",
+      "prompt": "Investigate serialization-time lazy loads and unclosed JDBC or EntityManager resources.",
+      "occurrences": [
+        {
+          "id": "RG-033",
+          "topic": "pooling",
+          "source": "S04",
+          "source_item": "context.2",
+          "kind": "question",
+          "prompt": "Investigate serialization-time lazy loads and unclosed JDBC or EntityManager resources.",
+          "also_from": [],
+          "original_topic": "pooling",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-034",
+      "topic": "pooling",
+      "owner": "coding-java",
+      "prompt": "Distinguish connection-exhaustion causes quickly using operational evidence.",
+      "occurrences": [
+        {
+          "id": "RG-034",
+          "topic": "pooling",
+          "source": "S04",
+          "source_item": "1",
+          "kind": "question",
+          "prompt": "Distinguish connection-exhaustion causes quickly using operational evidence.",
+          "also_from": [],
+          "original_topic": "pooling",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-035",
+      "topic": "pooling",
+      "owner": "coding-java",
+      "prompt": "Justify pool capacity; why can increasing it worsen timeouts?",
+      "occurrences": [
+        {
+          "id": "RG-035",
+          "topic": "pooling",
+          "source": "S04",
+          "source_item": "2",
+          "kind": "question",
+          "prompt": "Justify pool capacity; why can increasing it worsen timeouts?",
+          "also_from": [],
+          "original_topic": "pooling",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-036",
+      "topic": "pooling",
+      "owner": "coding-java",
+      "prompt": "Coordinate a required HTTP effect and database write without long connection ownership.",
+      "occurrences": [
+        {
+          "id": "RG-036",
+          "topic": "pooling",
+          "source": "S04",
+          "source_item": "3",
+          "kind": "question",
+          "prompt": "Coordinate a required HTTP effect and database write without long connection ownership.",
+          "also_from": [],
+          "original_topic": "pooling",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-040",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Explain how Java reclaims memory.",
+      "occurrences": [
+        {
+          "id": "RG-040",
+          "topic": "jvm",
+          "source": "S06",
+          "source_item": "opening",
+          "kind": "question",
+          "prompt": "Explain how Java reclaims memory.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-060",
+          "topic": "jvm",
+          "source": "S08",
+          "source_item": "5",
+          "kind": "question",
+          "prompt": "Explain JVM garbage collection.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-041",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Define a memory leak despite garbage collection.",
+      "occurrences": [
+        {
+          "id": "RG-041",
+          "topic": "jvm",
+          "source": "S06",
+          "source_item": "1",
+          "kind": "question",
+          "prompt": "Define a memory leak despite garbage collection.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-042",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Identify three retention risks in a Spring service.",
+      "occurrences": [
+        {
+          "id": "RG-042",
+          "topic": "jvm",
+          "source": "S06",
+          "source_item": "2",
+          "kind": "question",
+          "prompt": "Identify three retention risks in a Spring service.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-043",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Distinguish recurring OOM caused by leaks from workload growth.",
+      "occurrences": [
+        {
+          "id": "RG-043",
+          "topic": "jvm",
+          "source": "S06",
+          "source_item": "3",
+          "kind": "question",
+          "prompt": "Distinguish recurring OOM caused by leaks from workload growth.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-044",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Explain why increasing heap capacity may not prevent another crash.",
+      "occurrences": [
+        {
+          "id": "RG-044",
+          "topic": "jvm",
+          "source": "S06",
+          "source_item": "4",
+          "kind": "question",
+          "prompt": "Explain why increasing heap capacity may not prevent another crash.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-045",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Explain OOM with substantial heap space still available.",
+      "occurrences": [
+        {
+          "id": "RG-045",
+          "topic": "jvm",
+          "source": "S06",
+          "source_item": "5",
+          "kind": "question",
+          "prompt": "Explain OOM with substantial heap space still available.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-046",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Describe JVM behavior immediately before memory exhaustion.",
+      "occurrences": [
+        {
+          "id": "RG-046",
+          "topic": "jvm",
+          "source": "S06",
+          "source_item": "6",
+          "kind": "question",
+          "prompt": "Describe JVM behavior immediately before memory exhaustion.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-053",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Explain ConcurrentHashMap concurrency mechanisms.",
+      "occurrences": [
+        {
+          "id": "RG-053",
+          "topic": "collections",
+          "source": "S08",
+          "source_item": "1",
+          "kind": "question",
+          "prompt": "Explain ConcurrentHashMap concurrency mechanisms.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-147",
+          "topic": "collections",
+          "source": "S13",
+          "source_item": "Java.1",
+          "kind": "question",
+          "prompt": "Compare concurrent and ordinary maps.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-245",
+          "topic": "collections",
+          "source": "S17",
+          "source_item": "Java.1",
+          "kind": "question",
+          "prompt": "Compare map synchronization internals.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-054",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Relate identity, equality and hashing contracts.",
+      "occurrences": [
+        {
+          "id": "RG-054",
+          "topic": "collections",
+          "source": "S08",
+          "source_item": "4",
+          "kind": "question",
+          "prompt": "Relate identity, equality and hashing contracts.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-055",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Compare copying with shared versus independent nested objects.",
+      "occurrences": [
+        {
+          "id": "RG-055",
+          "topic": "collections",
+          "source": "S08",
+          "source_item": "7",
+          "kind": "question",
+          "prompt": "Compare copying with shared versus independent nested objects.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-056",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Compare waiting, sleeping and joining threads.",
+      "occurrences": [
+        {
+          "id": "RG-056",
+          "topic": "concurrency",
+          "source": "S08",
+          "source_item": "2",
+          "kind": "question",
+          "prompt": "Compare waiting, sleeping and joining threads.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-057",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Compare visibility guarantees and synchronization.",
+      "occurrences": [
+        {
+          "id": "RG-057",
+          "topic": "concurrency",
+          "source": "S08",
+          "source_item": "6",
+          "kind": "question",
+          "prompt": "Compare visibility guarantees and synchronization.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-251",
+          "topic": "concurrency",
+          "source": "S17",
+          "source_item": "Java.7",
+          "kind": "question",
+          "prompt": "Compare visibility and exclusion.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-058",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Explain ThreadLocal with a practical use.",
+      "occurrences": [
+        {
+          "id": "RG-058",
+          "topic": "concurrency",
+          "source": "S08",
+          "source_item": "9",
+          "kind": "question",
+          "prompt": "Explain ThreadLocal with a practical use.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-059",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Describe class-loader delegation.",
+      "occurrences": [
+        {
+          "id": "RG-059",
+          "topic": "jvm",
+          "source": "S08",
+          "source_item": "3",
+          "kind": "question",
+          "prompt": "Describe class-loader delegation.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-191",
+          "topic": "jvm",
+          "source": "S16",
+          "source_item": "Core.2",
+          "kind": "question",
+          "prompt": "Explain class loading.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-061",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Compare checked and unchecked exceptions.",
+      "occurrences": [
+        {
+          "id": "RG-061",
+          "topic": "java-language",
+          "source": "S08",
+          "source_item": "8",
+          "kind": "question",
+          "prompt": "Compare checked and unchecked exceptions.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-065",
+      "topic": "container",
+      "owner": "coding-java",
+      "prompt": "Compare bean declaration and component discovery.",
+      "occurrences": [
+        {
+          "id": "RG-065",
+          "topic": "container",
+          "source": "S08",
+          "source_item": "11",
+          "kind": "question",
+          "prompt": "Compare bean declaration and component discovery.",
+          "also_from": [],
+          "original_topic": "container",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-066",
+      "topic": "container",
+      "owner": "coding-java",
+      "prompt": "Explain an appropriate aspect-oriented use case.",
+      "occurrences": [
+        {
+          "id": "RG-066",
+          "topic": "container",
+          "source": "S08",
+          "source_item": "12",
+          "kind": "question",
+          "prompt": "Explain an appropriate aspect-oriented use case.",
+          "also_from": [],
+          "original_topic": "container",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-067",
+      "topic": "container",
+      "owner": "coding-java",
+      "prompt": "Explain Spring circular-dependency behavior.",
+      "occurrences": [
+        {
+          "id": "RG-067",
+          "topic": "container",
+          "source": "S08",
+          "source_item": "13",
+          "kind": "question",
+          "prompt": "Explain Spring circular-dependency behavior.",
+          "also_from": [],
+          "original_topic": "container",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-068",
+      "topic": "container",
+      "owner": "coding-java",
+      "prompt": "Compare ApplicationContext and BeanFactory.",
+      "occurrences": [
+        {
+          "id": "RG-068",
+          "topic": "container",
+          "source": "S08",
+          "source_item": "17",
+          "kind": "question",
+          "prompt": "Compare ApplicationContext and BeanFactory.",
+          "also_from": [],
+          "original_topic": "container",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-070",
+      "topic": "boot",
+      "owner": "coding-java",
+      "prompt": "Explain conditional auto-configuration.",
+      "occurrences": [
+        {
+          "id": "RG-070",
+          "topic": "boot",
+          "source": "S08",
+          "source_item": "15",
+          "kind": "question",
+          "prompt": "Explain conditional auto-configuration.",
+          "also_from": [],
+          "original_topic": "boot",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-155",
+          "topic": "boot",
+          "source": "S13",
+          "source_item": "Spring.1",
+          "kind": "question",
+          "prompt": "Explain Boot auto-configuration internals.",
+          "also_from": [],
+          "original_topic": "boot",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-071",
+      "topic": "boot",
+      "owner": "coding-java",
+      "prompt": "Compare configuration formats and environment profiles.",
+      "occurrences": [
+        {
+          "id": "RG-071",
+          "topic": "boot",
+          "source": "S08",
+          "source_item": "16",
+          "kind": "question",
+          "prompt": "Compare configuration formats and environment profiles.",
+          "also_from": [],
+          "original_topic": "boot",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-072",
+      "topic": "async",
+      "owner": "coding-java",
+      "prompt": "Separate inventory, payment and invoicing steps using Spring events or aspects.",
+      "occurrences": [
+        {
+          "id": "RG-072",
+          "topic": "async",
+          "source": "S08",
+          "source_item": "18",
+          "kind": "question",
+          "prompt": "Separate inventory, payment and invoicing steps using Spring events or aspects.",
+          "also_from": [],
+          "original_topic": "async",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-073",
+      "topic": "jpa",
+      "owner": "coding-java",
+      "prompt": "Compare immediate lookup with deferred entity access.",
+      "occurrences": [
+        {
+          "id": "RG-073",
+          "topic": "jpa",
+          "source": "S08",
+          "source_item": "19",
+          "kind": "question",
+          "prompt": "Compare immediate lookup with deferred entity access.",
+          "also_from": [],
+          "original_topic": "jpa",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-074",
+      "topic": "jpa",
+      "owner": "coding-java",
+      "prompt": "Explain dirty checking.",
+      "occurrences": [
+        {
+          "id": "RG-074",
+          "topic": "jpa",
+          "source": "S08",
+          "source_item": "22",
+          "kind": "question",
+          "prompt": "Explain dirty checking.",
+          "also_from": [],
+          "original_topic": "jpa",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-075",
+      "topic": "jpa",
+      "owner": "coding-java",
+      "prompt": "Explain entity lifecycle states.",
+      "occurrences": [
+        {
+          "id": "RG-075",
+          "topic": "jpa",
+          "source": "S08",
+          "source_item": "23",
+          "kind": "question",
+          "prompt": "Explain entity lifecycle states.",
+          "also_from": [],
+          "original_topic": "jpa",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-076",
+      "topic": "jpa",
+      "owner": "coding-java",
+      "prompt": "Compare Hibernate persistence-context and shared caches.",
+      "occurrences": [
+        {
+          "id": "RG-076",
+          "topic": "jpa",
+          "source": "S08",
+          "source_item": "20",
+          "kind": "question",
+          "prompt": "Compare Hibernate persistence-context and shared caches.",
+          "also_from": [],
+          "original_topic": "caching",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-266",
+          "topic": "jpa",
+          "source": "S17",
+          "source_item": "Data.3",
+          "kind": "question",
+          "prompt": "Compare Hibernate cache scopes.",
+          "also_from": [],
+          "original_topic": "caching",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-082",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Review generics and modern Java language features.",
+      "occurrences": [
+        {
+          "id": "RG-082",
+          "topic": "java-language",
+          "source": "S09",
+          "source_item": "step1",
+          "kind": "topic-derived",
+          "prompt": "Review generics and modern Java language features.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-084",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Explain virtual threads.",
+      "occurrences": [
+        {
+          "id": "RG-084",
+          "topic": "concurrency",
+          "source": "S09",
+          "source_item": "step1",
+          "kind": "topic-derived",
+          "prompt": "Explain virtual threads.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-153",
+          "topic": "concurrency",
+          "source": "S13",
+          "source_item": "Java.7",
+          "kind": "question",
+          "prompt": "Assess virtual-thread workload suitability.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-085",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Compare locks, atomics, monitors and executors.",
+      "occurrences": [
+        {
+          "id": "RG-085",
+          "topic": "concurrency",
+          "source": "S09",
+          "source_item": "step2",
+          "kind": "topic-derived",
+          "prompt": "Compare locks, atomics, monitors and executors.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-086",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Read thread dumps; compare heap, metaspace and collector choices.",
+      "occurrences": [
+        {
+          "id": "RG-086",
+          "topic": "jvm",
+          "source": "S09",
+          "source_item": "step2",
+          "kind": "topic-derived",
+          "prompt": "Read thread dumps; compare heap, metaspace and collector choices.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-087",
+      "topic": "container",
+      "owner": "coding-java",
+      "prompt": "Explain inversion of control, bean lifecycle and scopes.",
+      "occurrences": [
+        {
+          "id": "RG-087",
+          "topic": "container",
+          "source": "S09",
+          "source_item": "step3",
+          "kind": "topic-derived",
+          "prompt": "Explain inversion of control, bean lifecycle and scopes.",
+          "also_from": [],
+          "original_topic": "container",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-088",
+      "topic": "boot",
+      "owner": "coding-java",
+      "prompt": "Explain starters and Actuator.",
+      "occurrences": [
+        {
+          "id": "RG-088",
+          "topic": "boot",
+          "source": "S09",
+          "source_item": "step3",
+          "kind": "topic-derived",
+          "prompt": "Explain starters and Actuator.",
+          "also_from": [],
+          "original_topic": "boot",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-089",
+      "topic": "rest",
+      "owner": "coding-java",
+      "prompt": "Implement validated endpoints and one consistent error contract.",
+      "occurrences": [
+        {
+          "id": "RG-089",
+          "topic": "rest",
+          "source": "S09",
+          "source_item": "step3",
+          "kind": "topic-derived",
+          "prompt": "Implement validated endpoints and one consistent error contract.",
+          "also_from": [],
+          "original_topic": "rest",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-090",
+      "topic": "security",
+      "owner": "coding-java",
+      "prompt": "Explain JWT authentication filters.",
+      "occurrences": [
+        {
+          "id": "RG-090",
+          "topic": "security",
+          "source": "S09",
+          "source_item": "step3",
+          "kind": "topic-derived",
+          "prompt": "Explain JWT authentication filters.",
+          "also_from": [],
+          "original_topic": "security",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-094",
+      "topic": "testing",
+      "owner": "coding-java",
+      "prompt": "Use JUnit, Mockito and Testcontainers; distinguish stubbing and mocking.",
+      "occurrences": [
+        {
+          "id": "RG-094",
+          "topic": "testing",
+          "source": "S09",
+          "source_item": "step5",
+          "kind": "topic-derived",
+          "prompt": "Use JUnit, Mockito and Testcontainers; distinguish stubbing and mocking.",
+          "also_from": [],
+          "original_topic": "testing",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-113",
+      "topic": "jpa",
+      "owner": "coding-java",
+      "prompt": "Detect and fix one-query-per-row behavior.",
+      "occurrences": [
+        {
+          "id": "RG-113",
+          "topic": "jpa",
+          "source": "S11",
+          "source_item": "4",
+          "kind": "scenario-derived",
+          "prompt": "Detect and fix one-query-per-row behavior.",
+          "also_from": [],
+          "original_topic": "jpa",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-264",
+          "topic": "jpa",
+          "source": "S17",
+          "source_item": "Data.1",
+          "kind": "question",
+          "prompt": "Detect N+1 queries.",
+          "also_from": [],
+          "original_topic": "jpa",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-114",
+      "topic": "pooling",
+      "owner": "coding-java",
+      "prompt": "Contain connection exhaustion caused by slow queries.",
+      "occurrences": [
+        {
+          "id": "RG-114",
+          "topic": "pooling",
+          "source": "S11",
+          "source_item": "7",
+          "kind": "scenario-derived",
+          "prompt": "Contain connection exhaustion caused by slow queries.",
+          "also_from": [],
+          "original_topic": "pooling",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-117",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Diagnose degrading performance in a million-entry HashMap.",
+      "occurrences": [
+        {
+          "id": "RG-117",
+          "topic": "collections",
+          "source": "S12",
+          "source_item": "1",
+          "kind": "question",
+          "prompt": "Diagnose degrading performance in a million-entry HashMap.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-118",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Diagnose excessive synchronization.",
+      "occurrences": [
+        {
+          "id": "RG-118",
+          "topic": "concurrency",
+          "source": "S12",
+          "source_item": "2",
+          "kind": "question",
+          "prompt": "Diagnose excessive synchronization.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-119",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Explain volatile in double-checked singleton initialization.",
+      "occurrences": [
+        {
+          "id": "RG-119",
+          "topic": "concurrency",
+          "source": "S12",
+          "source_item": "3",
+          "kind": "question",
+          "prompt": "Explain volatile in double-checked singleton initialization.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-247",
+          "topic": "concurrency",
+          "source": "S17",
+          "source_item": "Java.3",
+          "kind": "question",
+          "prompt": "Explain double-checked publication.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-120",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Explain a ThreadLocal retention leak.",
+      "occurrences": [
+        {
+          "id": "RG-120",
+          "topic": "concurrency",
+          "source": "S12",
+          "source_item": "4",
+          "kind": "question",
+          "prompt": "Explain a ThreadLocal retention leak.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-250",
+          "topic": "concurrency",
+          "source": "S17",
+          "source_item": "Java.6",
+          "kind": "question",
+          "prompt": "Diagnose ThreadLocal retention.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-121",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Analyze wait/sleep lock interactions and deadlock risk.",
+      "occurrences": [
+        {
+          "id": "RG-121",
+          "topic": "concurrency",
+          "source": "S12",
+          "source_item": "5",
+          "kind": "question",
+          "prompt": "Analyze wait/sleep lock interactions and deadlock risk.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-122",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Diagnose OOM after weeks without a deployment.",
+      "occurrences": [
+        {
+          "id": "RG-122",
+          "topic": "jvm",
+          "source": "S12",
+          "source_item": "6",
+          "kind": "question",
+          "prompt": "Diagnose OOM after weeks without a deployment.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-281",
+          "topic": "jvm",
+          "source": "S19",
+          "source_item": "prompt",
+          "kind": "question",
+          "prompt": "Diagnose OOM after thirty unchanged days.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-123",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Investigate frequent long garbage-collection pauses.",
+      "occurrences": [
+        {
+          "id": "RG-123",
+          "topic": "jvm",
+          "source": "S12",
+          "source_item": "7",
+          "kind": "question",
+          "prompt": "Investigate frequent long garbage-collection pauses.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-124",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Choose G1 or ZGC for a production workload.",
+      "occurrences": [
+        {
+          "id": "RG-124",
+          "topic": "jvm",
+          "source": "S12",
+          "source_item": "8",
+          "kind": "question",
+          "prompt": "Choose G1 or ZGC for a production workload.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-249",
+          "topic": "jvm",
+          "source": "S17",
+          "source_item": "Java.5",
+          "kind": "question",
+          "prompt": "Compare collectors and reclamation.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-126",
+      "topic": "container",
+      "owner": "coding-java",
+      "prompt": "Resolve injection with multiple beans of one type.",
+      "occurrences": [
+        {
+          "id": "RG-126",
+          "topic": "container",
+          "source": "S12",
+          "source_item": "10",
+          "kind": "question",
+          "prompt": "Resolve injection with multiple beans of one type.",
+          "also_from": [],
+          "original_topic": "container",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-311",
+          "topic": "container",
+          "source": "S21",
+          "source_item": "5",
+          "kind": "question",
+          "prompt": "Resolve ambiguous injection.",
+          "also_from": [],
+          "original_topic": "container",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-127",
+      "topic": "async",
+      "owner": "coding-java",
+      "prompt": "Handle exceptions from asynchronous methods.",
+      "occurrences": [
+        {
+          "id": "RG-127",
+          "topic": "async",
+          "source": "S12",
+          "source_item": "11",
+          "kind": "question",
+          "prompt": "Handle exceptions from asynchronous methods.",
+          "also_from": [],
+          "original_topic": "async",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-128",
+      "topic": "boot",
+      "owner": "coding-java",
+      "prompt": "Diagnose slow application startup.",
+      "occurrences": [
+        {
+          "id": "RG-128",
+          "topic": "boot",
+          "source": "S12",
+          "source_item": "12",
+          "kind": "question",
+          "prompt": "Diagnose slow application startup.",
+          "also_from": [],
+          "original_topic": "boot",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-253",
+          "topic": "boot",
+          "source": "S17",
+          "source_item": "Spring.2",
+          "kind": "question",
+          "prompt": "Explain application startup.",
+          "also_from": [],
+          "original_topic": "boot",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-129",
+      "topic": "jpa",
+      "owner": "coding-java",
+      "prompt": "Explain environment-specific lazy-loading failures.",
+      "occurrences": [
+        {
+          "id": "RG-129",
+          "topic": "jpa",
+          "source": "S12",
+          "source_item": "13",
+          "kind": "question",
+          "prompt": "Explain environment-specific lazy-loading failures.",
+          "also_from": [],
+          "original_topic": "jpa",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-130",
+      "topic": "jpa",
+      "owner": "coding-java",
+      "prompt": "Diagnose a query that slows severely as data grows.",
+      "occurrences": [
+        {
+          "id": "RG-130",
+          "topic": "jpa",
+          "source": "S12",
+          "source_item": "14",
+          "kind": "question",
+          "prompt": "Diagnose a query that slows severely as data grows.",
+          "also_from": [],
+          "original_topic": "jpa",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-138",
+      "topic": "heap-coding",
+      "owner": "coding-java",
+      "prompt": "Maintain a running median.",
+      "occurrences": [
+        {
+          "id": "RG-138",
+          "topic": "heap-coding",
+          "source": "S13",
+          "source_item": "DSA.2",
+          "kind": "question",
+          "prompt": "Maintain a running median.",
+          "also_from": [],
+          "original_topic": "heap-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-046",
+          "topic": "heap-coding",
+          "original_topic": "heap-coding",
+          "source": "A02",
+          "source_item": "2",
+          "kind": "question",
+          "prompt": "Maintain a streaming median.",
+          "also_from": [],
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-096",
+          "topic": "heap-coding",
+          "original_topic": "heap-coding",
+          "source": "AL02",
+          "source_item": "2",
+          "kind": "inherited-feed-note",
+          "prompt": "Maintain a streaming median.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-139",
+      "topic": "graph-coding",
+      "owner": "coding-java",
+      "prompt": "Solve shortest word transformations.",
+      "occurrences": [
+        {
+          "id": "RG-139",
+          "topic": "graph-coding",
+          "source": "S13",
+          "source_item": "DSA.3",
+          "kind": "question",
+          "prompt": "Solve shortest word transformations.",
+          "also_from": [],
+          "original_topic": "graph-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-047",
+          "topic": "graph-coding",
+          "original_topic": "graph-coding",
+          "source": "A02",
+          "source_item": "3",
+          "kind": "question",
+          "prompt": "Find shortest word transformations.",
+          "also_from": [],
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-097",
+          "topic": "graph-coding",
+          "original_topic": "graph-coding",
+          "source": "AL02",
+          "source_item": "3",
+          "kind": "inherited-feed-note",
+          "prompt": "Solve Word Ladder.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-140",
+      "topic": "heap-coding",
+      "owner": "coding-java",
+      "prompt": "Merge ordered lists or streams.",
+      "occurrences": [
+        {
+          "id": "RG-140",
+          "topic": "heap-coding",
+          "source": "S13",
+          "source_item": "DSA.4",
+          "kind": "question",
+          "prompt": "Merge ordered lists or streams.",
+          "also_from": [],
+          "original_topic": "heap-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-278",
+          "topic": "heap-coding",
+          "source": "S17",
+          "source_item": "DSA.4",
+          "kind": "question",
+          "prompt": "Merge K ordered lists.",
+          "also_from": [],
+          "original_topic": "heap-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-048",
+          "topic": "heap-coding",
+          "original_topic": "heap-coding",
+          "source": "A02",
+          "source_item": "4",
+          "kind": "question",
+          "prompt": "Merge K ordered lists.",
+          "also_from": [],
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-076",
+          "topic": "heap-coding",
+          "original_topic": "heap-coding",
+          "source": "A03",
+          "source_item": "dsa.merge",
+          "kind": "question",
+          "prompt": "Merge K ordered lists.",
+          "also_from": [],
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-098",
+          "topic": "heap-coding",
+          "original_topic": "heap-coding",
+          "source": "AL02",
+          "source_item": "4",
+          "kind": "inherited-feed-note",
+          "prompt": "Merge K ordered lists.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-141",
+      "topic": "graph-coding",
+      "owner": "coding-java",
+      "prompt": "Detect directed cycles; order dependencies.",
+      "occurrences": [
+        {
+          "id": "RG-141",
+          "topic": "graph-coding",
+          "source": "S13",
+          "source_item": "DSA.5",
+          "kind": "question",
+          "prompt": "Detect directed cycles; order dependencies.",
+          "also_from": [],
+          "original_topic": "graph-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-279",
+          "topic": "graph-coding",
+          "source": "S17",
+          "source_item": "DSA.5",
+          "kind": "question",
+          "prompt": "Check course-prerequisite feasibility.",
+          "also_from": [],
+          "original_topic": "graph-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-049",
+          "topic": "graph-coding",
+          "original_topic": "graph-coding",
+          "source": "A02",
+          "source_item": "5",
+          "kind": "question",
+          "prompt": "Detect directed cycles.",
+          "also_from": [],
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-080",
+          "topic": "graph-coding",
+          "original_topic": "graph-coding",
+          "source": "A03",
+          "source_item": "dsa.course",
+          "kind": "question",
+          "prompt": "Check course prerequisites.",
+          "also_from": [],
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-099",
+          "topic": "graph-coding",
+          "original_topic": "graph-coding",
+          "source": "AL02",
+          "source_item": "5",
+          "kind": "inherited-feed-note",
+          "prompt": "Detect directed cycles.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-142",
+      "topic": "array-coding",
+      "owner": "coding-java",
+      "prompt": "Maximize contiguous sums; consider matrices.",
+      "occurrences": [
+        {
+          "id": "RG-142",
+          "topic": "array-coding",
+          "source": "S13",
+          "source_item": "DSA.6",
+          "kind": "question",
+          "prompt": "Maximize contiguous sums; consider matrices.",
+          "also_from": [],
+          "original_topic": "array-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-143",
+      "topic": "heap-coding",
+      "owner": "coding-java",
+      "prompt": "Track streaming kth-largest values.",
+      "occurrences": [
+        {
+          "id": "RG-143",
+          "topic": "heap-coding",
+          "source": "S13",
+          "source_item": "DSA.7",
+          "kind": "question",
+          "prompt": "Track streaming kth-largest values.",
+          "also_from": [],
+          "original_topic": "heap-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-051",
+          "topic": "heap-coding",
+          "original_topic": "heap-coding",
+          "source": "A02",
+          "source_item": "7",
+          "kind": "question",
+          "prompt": "Track a streaming kth-largest value.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-145",
+      "topic": "tree-coding",
+      "owner": "coding-java",
+      "prompt": "Serialize and reconstruct binary trees.",
+      "occurrences": [
+        {
+          "id": "RG-145",
+          "topic": "tree-coding",
+          "source": "S13",
+          "source_item": "DSA.9",
+          "kind": "question",
+          "prompt": "Serialize and reconstruct binary trees.",
+          "also_from": [],
+          "original_topic": "tree-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-146",
+      "topic": "array-coding",
+      "owner": "coding-java",
+      "prompt": "Compute trapped rainwater in 1D/2D.",
+      "occurrences": [
+        {
+          "id": "RG-146",
+          "topic": "array-coding",
+          "source": "S13",
+          "source_item": "DSA.10",
+          "kind": "question",
+          "prompt": "Compute trapped rainwater in 1D/2D.",
+          "also_from": [],
+          "original_topic": "array-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-148",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Compare JVM regions and collectors.",
+      "occurrences": [
+        {
+          "id": "RG-148",
+          "topic": "jvm",
+          "source": "S13",
+          "source_item": "Java.2",
+          "kind": "question",
+          "prompt": "Compare JVM regions and collectors.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-149",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Compare monitor and explicit locks.",
+      "occurrences": [
+        {
+          "id": "RG-149",
+          "topic": "concurrency",
+          "source": "S13",
+          "source_item": "Java.3",
+          "kind": "question",
+          "prompt": "Compare monitor and explicit locks.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-150",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Explain ordering and visibility guarantees.",
+      "occurrences": [
+        {
+          "id": "RG-150",
+          "topic": "concurrency",
+          "source": "S13",
+          "source_item": "Java.4",
+          "kind": "question",
+          "prompt": "Explain ordering and visibility guarantees.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-151",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Compare futures and reactive processing.",
+      "occurrences": [
+        {
+          "id": "RG-151",
+          "topic": "concurrency",
+          "source": "S13",
+          "source_item": "Java.5",
+          "kind": "question",
+          "prompt": "Compare futures and reactive processing.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-154",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Explain loading and executable JARs.",
+      "occurrences": [
+        {
+          "id": "RG-154",
+          "topic": "jvm",
+          "source": "S13",
+          "source_item": "Java.8",
+          "kind": "question",
+          "prompt": "Explain loading and executable JARs.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-156",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "Analyze proxies, propagation and isolation.",
+      "occurrences": [
+        {
+          "id": "RG-156",
+          "topic": "transactions",
+          "source": "S13",
+          "source_item": "Spring.2",
+          "kind": "question",
+          "prompt": "Analyze proxies, propagation and isolation.",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-160",
+      "topic": "security",
+      "owner": "coding-java",
+      "prompt": "Explain authentication and filter chains.",
+      "occurrences": [
+        {
+          "id": "RG-160",
+          "topic": "security",
+          "source": "S13",
+          "source_item": "Spring.comment.3",
+          "kind": "question",
+          "prompt": "Explain authentication and filter chains.",
+          "also_from": [],
+          "original_topic": "security",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-174",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Implement an allOf-style future aggregator.",
+      "occurrences": [
+        {
+          "id": "RG-174",
+          "topic": "concurrency",
+          "source": "S13",
+          "source_item": "Coding.comment.3",
+          "kind": "question",
+          "prompt": "Implement an allOf-style future aggregator.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-175",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Reproduce and eliminate deadlock.",
+      "occurrences": [
+        {
+          "id": "RG-175",
+          "topic": "concurrency",
+          "source": "S13",
+          "source_item": "Coding.comment.4",
+          "kind": "question",
+          "prompt": "Reproduce and eliminate deadlock.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-190",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Explain Java execution portability.",
+      "occurrences": [
+        {
+          "id": "RG-190",
+          "topic": "jvm",
+          "source": "S16",
+          "source_item": "Core.1",
+          "kind": "question",
+          "prompt": "Explain Java execution portability.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-192",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Compare missing-class failure modes.",
+      "occurrences": [
+        {
+          "id": "RG-192",
+          "topic": "jvm",
+          "source": "S16",
+          "source_item": "Core.3",
+          "kind": "question",
+          "prompt": "Compare missing-class failure modes.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-193",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Explain interning and string equality.",
+      "occurrences": [
+        {
+          "id": "RG-193",
+          "topic": "collections",
+          "source": "S16",
+          "source_item": "Core.4",
+          "kind": "question",
+          "prompt": "Explain interning and string equality.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-194",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Explain encapsulation.",
+      "occurrences": [
+        {
+          "id": "RG-194",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "OOP.1",
+          "kind": "question",
+          "prompt": "Explain encapsulation.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-195",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Explain Serializable.",
+      "occurrences": [
+        {
+          "id": "RG-195",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "OOP.2",
+          "kind": "question",
+          "prompt": "Explain Serializable.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-196",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Explain class modifier restrictions.",
+      "occurrences": [
+        {
+          "id": "RG-196",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "OOP.3",
+          "kind": "question",
+          "prompt": "Explain class modifier restrictions.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-197",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Compare OOP and scripting models.",
+      "occurrences": [
+        {
+          "id": "RG-197",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "OOP.4",
+          "kind": "question",
+          "prompt": "Compare OOP and scripting models.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-198",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Describe throwable hierarchy.",
+      "occurrences": [
+        {
+          "id": "RG-198",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "Exceptions.1",
+          "kind": "question",
+          "prompt": "Describe throwable hierarchy.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-199",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Compare errors and exceptions.",
+      "occurrences": [
+        {
+          "id": "RG-199",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "Exceptions.2",
+          "kind": "question",
+          "prompt": "Compare errors and exceptions.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-200",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Classify exception checking.",
+      "occurrences": [
+        {
+          "id": "RG-200",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "Exceptions.3",
+          "kind": "question",
+          "prompt": "Classify exception checking.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-201",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Use automatic resource closing.",
+      "occurrences": [
+        {
+          "id": "RG-201",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "Exceptions.4",
+          "kind": "question",
+          "prompt": "Use automatic resource closing.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-202",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Explain exception propagation.",
+      "occurrences": [
+        {
+          "id": "RG-202",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "Exceptions.5",
+          "kind": "question",
+          "prompt": "Explain exception propagation.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-203",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Explain boxing.",
+      "occurrences": [
+        {
+          "id": "RG-203",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "Language.1",
+          "kind": "question",
+          "prompt": "Explain boxing.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-204",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Explain Java 8 features.",
+      "occurrences": [
+        {
+          "id": "RG-204",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Language.2",
+          "kind": "question",
+          "prompt": "Explain Java 8 features.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-205",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Explain lambda use cases.",
+      "occurrences": [
+        {
+          "id": "RG-205",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Language.3",
+          "kind": "question",
+          "prompt": "Explain lambda use cases.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-206",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Explain interface construction restrictions.",
+      "occurrences": [
+        {
+          "id": "RG-206",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "Language.4",
+          "kind": "question",
+          "prompt": "Explain interface construction restrictions.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-207",
+      "topic": "java-language",
+      "owner": "coding-java",
+      "prompt": "Compare iteration costs.",
+      "occurrences": [
+        {
+          "id": "RG-207",
+          "topic": "java-language",
+          "source": "S16",
+          "source_item": "Language.5",
+          "kind": "question",
+          "prompt": "Compare iteration costs.",
+          "also_from": [],
+          "original_topic": "patterns",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-208",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Coordinate five threads printing sequentially.",
+      "occurrences": [
+        {
+          "id": "RG-208",
+          "topic": "concurrency",
+          "source": "S16",
+          "source_item": "Concurrency.1",
+          "kind": "question",
+          "prompt": "Coordinate five threads printing sequentially.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-209",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Compare volatile and atomic updates.",
+      "occurrences": [
+        {
+          "id": "RG-209",
+          "topic": "concurrency",
+          "source": "S16",
+          "source_item": "Concurrency.2",
+          "kind": "question",
+          "prompt": "Compare volatile and atomic updates.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-214",
+      "topic": "boot",
+      "owner": "coding-java",
+      "prompt": "Explain Boot adoption.",
+      "occurrences": [
+        {
+          "id": "RG-214",
+          "topic": "boot",
+          "source": "S16",
+          "source_item": "Spring.1",
+          "kind": "question",
+          "prompt": "Explain Boot adoption.",
+          "also_from": [],
+          "original_topic": "boot",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-215",
+      "topic": "container",
+      "owner": "coding-java",
+      "prompt": "Explain bean declaration/selection/value injection.",
+      "occurrences": [
+        {
+          "id": "RG-215",
+          "topic": "container",
+          "source": "S16",
+          "source_item": "Spring.2",
+          "kind": "question",
+          "prompt": "Explain bean declaration/selection/value injection.",
+          "also_from": [],
+          "original_topic": "container",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-216",
+      "topic": "rest",
+      "owner": "coding-java",
+      "prompt": "Compare controller response semantics.",
+      "occurrences": [
+        {
+          "id": "RG-216",
+          "topic": "rest",
+          "source": "S16",
+          "source_item": "Spring.3",
+          "kind": "question",
+          "prompt": "Compare controller response semantics.",
+          "also_from": [],
+          "original_topic": "rest",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-217",
+      "topic": "testing",
+      "owner": "coding-java",
+      "prompt": "Compare mocks and injected collaborators.",
+      "occurrences": [
+        {
+          "id": "RG-217",
+          "topic": "testing",
+          "source": "S16",
+          "source_item": "Spring.4",
+          "kind": "question",
+          "prompt": "Compare mocks and injected collaborators.",
+          "also_from": [],
+          "original_topic": "testing",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-219",
+      "topic": "jpa",
+      "owner": "coding-java",
+      "prompt": "Describe repository interfaces.",
+      "occurrences": [
+        {
+          "id": "RG-219",
+          "topic": "jpa",
+          "source": "S16",
+          "source_item": "Spring.6",
+          "kind": "question",
+          "prompt": "Describe repository interfaces.",
+          "also_from": [],
+          "original_topic": "jpa",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-220",
+      "topic": "rest",
+      "owner": "coding-java",
+      "prompt": "Handle controller exceptions.",
+      "occurrences": [
+        {
+          "id": "RG-220",
+          "topic": "rest",
+          "source": "S16",
+          "source_item": "Spring.7",
+          "kind": "question",
+          "prompt": "Handle controller exceptions.",
+          "also_from": [],
+          "original_topic": "rest",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-257",
+          "topic": "rest",
+          "source": "S17",
+          "source_item": "Spring.6",
+          "kind": "question",
+          "prompt": "Implement global error handling.",
+          "also_from": [],
+          "original_topic": "rest",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-221",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "Explain propagation.",
+      "occurrences": [
+        {
+          "id": "RG-221",
+          "topic": "transactions",
+          "source": "S16",
+          "source_item": "Spring.8",
+          "kind": "question",
+          "prompt": "Explain propagation.",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-222",
+      "topic": "boot",
+      "owner": "coding-java",
+      "prompt": "Explain property configuration.",
+      "occurrences": [
+        {
+          "id": "RG-222",
+          "topic": "boot",
+          "source": "S16",
+          "source_item": "Spring.9",
+          "kind": "question",
+          "prompt": "Explain property configuration.",
+          "also_from": [],
+          "original_topic": "boot",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-223",
+      "topic": "jpa",
+      "owner": "coding-java",
+      "prompt": "Explain generated SQL.",
+      "occurrences": [
+        {
+          "id": "RG-223",
+          "topic": "jpa",
+          "source": "S16",
+          "source_item": "Spring.10",
+          "kind": "question",
+          "prompt": "Explain generated SQL.",
+          "also_from": [],
+          "original_topic": "jpa",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-224",
+      "topic": "rest",
+      "owner": "coding-java",
+      "prompt": "Separate MVC responsibilities.",
+      "occurrences": [
+        {
+          "id": "RG-224",
+          "topic": "rest",
+          "source": "S16",
+          "source_item": "Spring.11",
+          "kind": "question",
+          "prompt": "Separate MVC responsibilities.",
+          "also_from": [],
+          "original_topic": "rest",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-225",
+      "topic": "jpa",
+      "owner": "coding-java",
+      "prompt": "Implement pagination and uniqueness.",
+      "occurrences": [
+        {
+          "id": "RG-225",
+          "topic": "jpa",
+          "source": "S16",
+          "source_item": "Spring.12",
+          "kind": "question",
+          "prompt": "Implement pagination and uniqueness.",
+          "also_from": [],
+          "original_topic": "jpa",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-226",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Explain HashMap internals.",
+      "occurrences": [
+        {
+          "id": "RG-226",
+          "topic": "collections",
+          "source": "S16",
+          "source_item": "Collections.1",
+          "kind": "question",
+          "prompt": "Explain HashMap internals.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-227",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Compare synchronized map implementations.",
+      "occurrences": [
+        {
+          "id": "RG-227",
+          "topic": "collections",
+          "source": "S16",
+          "source_item": "Collections.2",
+          "kind": "question",
+          "prompt": "Compare synchronized map implementations.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-228",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Select list/set/map structures.",
+      "occurrences": [
+        {
+          "id": "RG-228",
+          "topic": "collections",
+          "source": "S16",
+          "source_item": "Collections.3",
+          "kind": "question",
+          "prompt": "Select list/set/map structures.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-229",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Explain linked lists.",
+      "occurrences": [
+        {
+          "id": "RG-229",
+          "topic": "collections",
+          "source": "S16",
+          "source_item": "Collections.4",
+          "kind": "question",
+          "prompt": "Explain linked lists.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-230",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Define natural ordering.",
+      "occurrences": [
+        {
+          "id": "RG-230",
+          "topic": "collections",
+          "source": "S16",
+          "source_item": "Collections.5",
+          "kind": "question",
+          "prompt": "Define natural ordering.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-231",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Explain hashing contracts.",
+      "occurrences": [
+        {
+          "id": "RG-231",
+          "topic": "collections",
+          "source": "S16",
+          "source_item": "Collections.6",
+          "kind": "question",
+          "prompt": "Explain hashing contracts.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-232",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Explain Iterable.",
+      "occurrences": [
+        {
+          "id": "RG-232",
+          "topic": "collections",
+          "source": "S16",
+          "source_item": "Collections.7",
+          "kind": "question",
+          "prompt": "Explain Iterable.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-233",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Explain stream pipelines.",
+      "occurrences": [
+        {
+          "id": "RG-233",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Streams.1",
+          "kind": "question",
+          "prompt": "Explain stream pipelines.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-234",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Construct streams.",
+      "occurrences": [
+        {
+          "id": "RG-234",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Streams.2",
+          "kind": "question",
+          "prompt": "Construct streams.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-235",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Contrast streams and collections.",
+      "occurrences": [
+        {
+          "id": "RG-235",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Streams.3",
+          "kind": "question",
+          "prompt": "Contrast streams and collections.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-236",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Distinguish intermediate/terminal operations.",
+      "occurrences": [
+        {
+          "id": "RG-236",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Streams.4",
+          "kind": "question",
+          "prompt": "Distinguish intermediate/terminal operations.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-237",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Compare mapping and flattening.",
+      "occurrences": [
+        {
+          "id": "RG-237",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Streams.5",
+          "kind": "question",
+          "prompt": "Compare mapping and flattening.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-238",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Compare collection and search terminals.",
+      "occurrences": [
+        {
+          "id": "RG-238",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Streams.6",
+          "kind": "question",
+          "prompt": "Compare collection and search terminals.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-239",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Handle pipeline exceptions.",
+      "occurrences": [
+        {
+          "id": "RG-239",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Streams.7",
+          "kind": "question",
+          "prompt": "Handle pipeline exceptions.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-240",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Materialize collections.",
+      "occurrences": [
+        {
+          "id": "RG-240",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Streams.8",
+          "kind": "question",
+          "prompt": "Materialize collections.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-241",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Compare sequential/parallel processing.",
+      "occurrences": [
+        {
+          "id": "RG-241",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Streams.9",
+          "kind": "question",
+          "prompt": "Compare sequential/parallel processing.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-242",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Define functional interfaces.",
+      "occurrences": [
+        {
+          "id": "RG-242",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Functional.1",
+          "kind": "question",
+          "prompt": "Define functional interfaces.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-243",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Discuss default/static members.",
+      "occurrences": [
+        {
+          "id": "RG-243",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Functional.2",
+          "kind": "question",
+          "prompt": "Discuss default/static members.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-244",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Use Runnable/Comparator/Callable.",
+      "occurrences": [
+        {
+          "id": "RG-244",
+          "topic": "streams",
+          "source": "S16",
+          "source_item": "Functional.3",
+          "kind": "question",
+          "prompt": "Use Runnable/Comparator/Callable.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-246",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Distinguish heap, stack and metaspace.",
+      "occurrences": [
+        {
+          "id": "RG-246",
+          "topic": "jvm",
+          "source": "S17",
+          "source_item": "Java.2",
+          "kind": "question",
+          "prompt": "Distinguish heap, stack and metaspace.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-248",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Compare ordering interfaces.",
+      "occurrences": [
+        {
+          "id": "RG-248",
+          "topic": "collections",
+          "source": "S17",
+          "source_item": "Java.4",
+          "kind": "question",
+          "prompt": "Compare ordering interfaces.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-252",
+      "topic": "transactions",
+      "owner": "coding-java",
+      "prompt": "Explain transactional interception failures.",
+      "occurrences": [
+        {
+          "id": "RG-252",
+          "topic": "transactions",
+          "source": "S17",
+          "source_item": "Spring.1",
+          "kind": "question",
+          "prompt": "Explain transactional interception failures.",
+          "also_from": [],
+          "original_topic": "transactions",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-254",
+      "topic": "container",
+      "owner": "coding-java",
+      "prompt": "Compare stereotype annotations.",
+      "occurrences": [
+        {
+          "id": "RG-254",
+          "topic": "container",
+          "source": "S17",
+          "source_item": "Spring.3",
+          "kind": "question",
+          "prompt": "Compare stereotype annotations.",
+          "also_from": [],
+          "original_topic": "container",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-255",
+      "topic": "container",
+      "owner": "coding-java",
+      "prompt": "Explain dependency injection internals.",
+      "occurrences": [
+        {
+          "id": "RG-255",
+          "topic": "container",
+          "source": "S17",
+          "source_item": "Spring.4",
+          "kind": "question",
+          "prompt": "Explain dependency injection internals.",
+          "also_from": [],
+          "original_topic": "container",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-256",
+      "topic": "rest",
+      "owner": "coding-java",
+      "prompt": "Compare blocking/reactive HTTP clients.",
+      "occurrences": [
+        {
+          "id": "RG-256",
+          "topic": "rest",
+          "source": "S17",
+          "source_item": "Spring.5",
+          "kind": "question",
+          "prompt": "Compare blocking/reactive HTTP clients.",
+          "also_from": [],
+          "original_topic": "rest",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-276",
+      "topic": "array-coding",
+      "owner": "coding-java",
+      "prompt": "Find maximum contiguous sum.",
+      "occurrences": [
+        {
+          "id": "RG-276",
+          "topic": "array-coding",
+          "source": "S17",
+          "source_item": "DSA.2",
+          "kind": "question",
+          "prompt": "Find maximum contiguous sum.",
+          "also_from": [],
+          "original_topic": "array-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-050",
+          "topic": "array-coding",
+          "original_topic": "array-coding",
+          "source": "A02",
+          "source_item": "6",
+          "kind": "question",
+          "prompt": "Find maximum contiguous sums.",
+          "also_from": [],
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-073",
+          "topic": "array-coding",
+          "original_topic": "array-coding",
+          "source": "A03",
+          "source_item": "dsa.sum",
+          "kind": "question",
+          "prompt": "Find maximum contiguous sum.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-277",
+      "topic": "list-coding",
+      "owner": "coding-java",
+      "prompt": "Detect a linked-list cycle.",
+      "occurrences": [
+        {
+          "id": "RG-277",
+          "topic": "list-coding",
+          "source": "S17",
+          "source_item": "DSA.3",
+          "kind": "question",
+          "prompt": "Detect a linked-list cycle.",
+          "also_from": [],
+          "original_topic": "list-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-075",
+          "topic": "list-coding",
+          "original_topic": "list-coding",
+          "source": "A03",
+          "source_item": "dsa.cycle",
+          "kind": "question",
+          "prompt": "Detect linked-list cycles.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-307",
+      "topic": "boot",
+      "owner": "coding-java",
+      "prompt": "Diagnose local-versus-deployment failures.",
+      "occurrences": [
+        {
+          "id": "RG-307",
+          "topic": "boot",
+          "source": "S21",
+          "source_item": "1",
+          "kind": "question",
+          "prompt": "Diagnose local-versus-deployment failures.",
+          "also_from": [],
+          "original_topic": "boot",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-309",
+      "topic": "boot",
+      "owner": "coding-java",
+      "prompt": "Explain ignored property changes.",
+      "occurrences": [
+        {
+          "id": "RG-309",
+          "topic": "boot",
+          "source": "S21",
+          "source_item": "3",
+          "kind": "question",
+          "prompt": "Explain ignored property changes.",
+          "also_from": [],
+          "original_topic": "boot",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-313",
+      "topic": "pooling",
+      "owner": "coding-java",
+      "prompt": "Find connection-exhaustion causes.",
+      "occurrences": [
+        {
+          "id": "RG-313",
+          "topic": "pooling",
+          "source": "S21",
+          "source_item": "7",
+          "kind": "question",
+          "prompt": "Find connection-exhaustion causes.",
+          "also_from": [],
+          "original_topic": "pooling",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-315",
+      "topic": "jvm",
+      "owner": "coding-java",
+      "prompt": "Investigate steadily increasing memory.",
+      "occurrences": [
+        {
+          "id": "RG-315",
+          "topic": "jvm",
+          "source": "S21",
+          "source_item": "9",
+          "kind": "question",
+          "prompt": "Investigate steadily increasing memory.",
+          "also_from": [],
+          "original_topic": "jvm",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-317",
+      "topic": "pooling",
+      "owner": "coding-java",
+      "prompt": "Explain Statement versus PreparedStatement input handling.",
+      "occurrences": [
+        {
+          "id": "RG-317",
+          "topic": "pooling",
+          "source": "S22",
+          "source_item": "visible.theme.1",
+          "kind": "topic-derived",
+          "prompt": "Explain Statement versus PreparedStatement input handling.",
+          "also_from": [],
+          "original_topic": "pooling",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-318",
+      "topic": "pooling",
+      "owner": "coding-java",
+      "prompt": "Explain connection exhaustion beyond basic JDBC usage.",
+      "occurrences": [
+        {
+          "id": "RG-318",
+          "topic": "pooling",
+          "source": "S22",
+          "source_item": "visible.theme.2",
+          "kind": "topic-derived",
+          "prompt": "Explain connection exhaustion beyond basic JDBC usage.",
+          "also_from": [],
+          "original_topic": "pooling",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-320",
+      "topic": "heap-coding",
+      "owner": "coding-java",
+      "prompt": "Maintain prices with timestamp corrections.",
+      "occurrences": [
+        {
+          "id": "RG-320",
+          "topic": "heap-coding",
+          "source": "L01",
+          "source_item": "ledger R1 2026-10-15.2",
+          "kind": "inherited-feed-note",
+          "prompt": "Maintain prices with timestamp corrections.",
+          "also_from": [],
+          "original_topic": "heap-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "RG-335",
+          "topic": "heap-coding",
+          "source": "L05",
+          "source_item": "ledger R1 2026-09-20.3",
+          "kind": "inherited-feed-note",
+          "prompt": "Update timestamped prices with corrections.",
+          "also_from": [],
+          "original_topic": "heap-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-321",
+      "topic": "tree-coding",
+      "owner": "coding-java",
+      "prompt": "Search words on a board.",
+      "occurrences": [
+        {
+          "id": "RG-321",
+          "topic": "tree-coding",
+          "source": "L01",
+          "source_item": "ledger R1 2026-10-15.3",
+          "kind": "inherited-feed-note",
+          "prompt": "Search words on a board.",
+          "also_from": [],
+          "original_topic": "tree-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-322",
+      "topic": "string-coding",
+      "owner": "coding-java",
+      "prompt": "Maintain a character inventory.",
+      "occurrences": [
+        {
+          "id": "RG-322",
+          "topic": "string-coding",
+          "source": "L01",
+          "source_item": "ledger R1 2026-10-15.4",
+          "kind": "inherited-feed-note",
+          "prompt": "Maintain a character inventory.",
+          "also_from": [],
+          "original_topic": "string-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-323",
+      "topic": "concurrency",
+      "owner": "coding-java",
+      "prompt": "Combine parallel API calls with CompletableFuture.",
+      "occurrences": [
+        {
+          "id": "RG-323",
+          "topic": "concurrency",
+          "source": "L02",
+          "source_item": "ledger R1 2026-10-14.1",
+          "kind": "inherited-feed-note",
+          "prompt": "Combine parallel API calls with CompletableFuture.",
+          "also_from": [],
+          "original_topic": "concurrency",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-324",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Find highest student averages, including negative scores.",
+      "occurrences": [
+        {
+          "id": "RG-324",
+          "topic": "streams",
+          "source": "L02",
+          "source_item": "ledger R1 2026-10-14.2",
+          "kind": "inherited-feed-note",
+          "prompt": "Find highest student averages, including negative scores.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-329",
+      "topic": "streams",
+      "owner": "coding-java",
+      "prompt": "Compute stream statistics.",
+      "occurrences": [
+        {
+          "id": "RG-329",
+          "topic": "streams",
+          "source": "L04",
+          "source_item": "ledger R1 2026-09-30.1",
+          "kind": "inherited-feed-note",
+          "prompt": "Compute stream statistics.",
+          "also_from": [],
+          "original_topic": "streams",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-330",
+      "topic": "graph-coding",
+      "owner": "coding-java",
+      "prompt": "Traverse similarity links between movies.",
+      "occurrences": [
+        {
+          "id": "RG-330",
+          "topic": "graph-coding",
+          "source": "L04",
+          "source_item": "ledger R1 2026-09-30.2",
+          "kind": "inherited-feed-note",
+          "prompt": "Traverse similarity links between movies.",
+          "also_from": [],
+          "original_topic": "graph-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-331",
+      "topic": "string-coding",
+      "owner": "coding-java",
+      "prompt": "Find a minimum covering window.",
+      "occurrences": [
+        {
+          "id": "RG-331",
+          "topic": "string-coding",
+          "source": "L04",
+          "source_item": "ledger R1 2026-09-30.3",
+          "kind": "inherited-feed-note",
+          "prompt": "Find a minimum covering window.",
+          "also_from": [],
+          "original_topic": "string-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-332",
+      "topic": "tree-coding",
+      "owner": "coding-java",
+      "prompt": "Merge N-ary trees.",
+      "occurrences": [
+        {
+          "id": "RG-332",
+          "topic": "tree-coding",
+          "source": "L04",
+          "source_item": "ledger R1 2026-09-30.4",
+          "kind": "inherited-feed-note",
+          "prompt": "Merge N-ary trees.",
+          "also_from": [],
+          "original_topic": "tree-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-334",
+      "topic": "file-coding",
+      "owner": "coding-java",
+      "prompt": "Rank nested file collections.",
+      "occurrences": [
+        {
+          "id": "RG-334",
+          "topic": "file-coding",
+          "source": "L05",
+          "source_item": "ledger R1 2026-09-20.2",
+          "kind": "inherited-feed-note",
+          "prompt": "Rank nested file collections.",
+          "also_from": [],
+          "original_topic": "file-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-336",
+      "topic": "collections",
+      "owner": "coding-java",
+      "prompt": "Implement constant-time frequency tracking.",
+      "occurrences": [
+        {
+          "id": "RG-336",
+          "topic": "collections",
+          "source": "L05",
+          "source_item": "ledger R1 2026-09-20.4",
+          "kind": "inherited-feed-note",
+          "prompt": "Implement constant-time frequency tracking.",
+          "also_from": [],
+          "original_topic": "collections",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-338",
+      "topic": "graph-coding",
+      "owner": "coding-java",
+      "prompt": "Execute dependent tasks concurrently.",
+      "occurrences": [
+        {
+          "id": "RG-338",
+          "topic": "graph-coding",
+          "source": "L06",
+          "source_item": "ledger R1 2026-09-02.2",
+          "kind": "inherited-feed-note",
+          "prompt": "Execute dependent tasks concurrently.",
+          "also_from": [],
+          "original_topic": "graph-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-341",
+      "topic": "file-coding",
+      "owner": "coding-java",
+      "prompt": "Model filesystem operations.",
+      "occurrences": [
+        {
+          "id": "RG-341",
+          "topic": "file-coding",
+          "source": "L06",
+          "source_item": "ledger R1 2026-09-02.5",
+          "kind": "inherited-feed-note",
+          "prompt": "Model filesystem operations.",
+          "also_from": [],
+          "original_topic": "file-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-342",
+      "topic": "array-coding",
+      "owner": "coding-java",
+      "prompt": "Review array/search/DP problem families.",
+      "occurrences": [
+        {
+          "id": "RG-342",
+          "topic": "array-coding",
+          "source": "L07",
+          "source_item": "ledger R1 2026-08-27.1",
+          "kind": "inherited-feed-note",
+          "prompt": "Review array/search/DP problem families.",
+          "also_from": [],
+          "original_topic": "array-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-090",
+          "topic": "array-coding",
+          "original_topic": "array-coding",
+          "source": "AL01",
+          "source_item": "1",
+          "kind": "inherited-feed-note",
+          "prompt": "Review windows.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-343",
+      "topic": "list-coding",
+      "owner": "coding-java",
+      "prompt": "Review linked-list problem families.",
+      "occurrences": [
+        {
+          "id": "RG-343",
+          "topic": "list-coding",
+          "source": "L07",
+          "source_item": "ledger R1 2026-08-27.2",
+          "kind": "inherited-feed-note",
+          "prompt": "Review linked-list problem families.",
+          "also_from": [],
+          "original_topic": "list-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-344",
+      "topic": "tree-coding",
+      "owner": "coding-java",
+      "prompt": "Review tree problem families.",
+      "occurrences": [
+        {
+          "id": "RG-344",
+          "topic": "tree-coding",
+          "source": "L07",
+          "source_item": "ledger R1 2026-08-27.3",
+          "kind": "inherited-feed-note",
+          "prompt": "Review tree problem families.",
+          "also_from": [],
+          "original_topic": "tree-coding",
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "RG-345",
+      "topic": "graph-coding",
+      "owner": "coding-java",
+      "prompt": "Review graph problem families.",
+      "occurrences": [
+        {
+          "id": "RG-345",
+          "topic": "graph-coding",
+          "source": "L07",
+          "source_item": "ledger R1 2026-08-27.4",
+          "kind": "inherited-feed-note",
+          "prompt": "Review graph problem families.",
+          "also_from": [],
+          "original_topic": "graph-coding",
+          "owner": "coding-java"
+        },
+        {
+          "id": "AR-093",
+          "topic": "graph-coding",
+          "original_topic": "graph-coding",
+          "source": "AL01",
+          "source_item": "4",
+          "kind": "inherited-feed-note",
+          "prompt": "Review graph traversal.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "AR-074",
+      "topic": "string-coding",
+      "owner": "coding-java",
+      "prompt": "Find the first unique character.",
+      "occurrences": [
+        {
+          "id": "AR-074",
+          "topic": "string-coding",
+          "original_topic": "string-coding",
+          "source": "A03",
+          "source_item": "dsa.unique",
+          "kind": "question",
+          "prompt": "Find the first unique character.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "AR-077",
+      "topic": "array-coding",
+      "owner": "coding-java",
+      "prompt": "Find the maximum in each fixed-size window.",
+      "occurrences": [
+        {
+          "id": "AR-077",
+          "topic": "array-coding",
+          "original_topic": "array-coding",
+          "source": "A03",
+          "source_item": "dsa.window",
+          "kind": "question",
+          "prompt": "Find the maximum in each fixed-size window.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "AR-078",
+      "topic": "string-coding",
+      "owner": "coding-java",
+      "prompt": "Find the longest palindromic substring.",
+      "occurrences": [
+        {
+          "id": "AR-078",
+          "topic": "string-coding",
+          "original_topic": "string-coding",
+          "source": "A03",
+          "source_item": "dsa.palindrome",
+          "kind": "question",
+          "prompt": "Find the longest palindromic substring.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "AR-079",
+      "topic": "binary-coding",
+      "owner": "coding-java",
+      "prompt": "Maximize minimum spacing between placed cows.",
+      "occurrences": [
+        {
+          "id": "AR-079",
+          "topic": "binary-coding",
+          "original_topic": "binary-coding",
+          "source": "A03",
+          "source_item": "dsa.cows",
+          "kind": "question",
+          "prompt": "Maximize minimum spacing between placed cows.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "AR-091",
+      "topic": "heap-coding",
+      "owner": "coding-java",
+      "prompt": "Review heap-based problems.",
+      "occurrences": [
+        {
+          "id": "AR-091",
+          "topic": "heap-coding",
+          "original_topic": "heap-coding",
+          "source": "AL01",
+          "source_item": "2",
+          "kind": "inherited-feed-note",
+          "prompt": "Review heap-based problems.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "AR-092",
+      "topic": "array-coding",
+      "owner": "coding-java",
+      "prompt": "Review interval-processing problems.",
+      "occurrences": [
+        {
+          "id": "AR-092",
+          "topic": "array-coding",
+          "original_topic": "array-coding",
+          "source": "AL01",
+          "source_item": "3",
+          "kind": "inherited-feed-note",
+          "prompt": "Review interval-processing problems.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "AR-100",
+      "topic": "heap-coding",
+      "owner": "coding-java",
+      "prompt": "Select top K values.",
+      "occurrences": [
+        {
+          "id": "AR-100",
+          "topic": "heap-coding",
+          "original_topic": "heap-coding",
+          "source": "AL02",
+          "source_item": "6",
+          "kind": "inherited-feed-note",
+          "prompt": "Select top K values.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "AR-101",
+      "topic": "array-coding",
+      "owner": "coding-java",
+      "prompt": "Find a longest increasing subsequence.",
+      "occurrences": [
+        {
+          "id": "AR-101",
+          "topic": "array-coding",
+          "original_topic": "array-coding",
+          "source": "AL02",
+          "source_item": "7",
+          "kind": "inherited-feed-note",
+          "prompt": "Find a longest increasing subsequence.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    },
+    {
+      "id": "AR-102",
+      "topic": "string-coding",
+      "owner": "coding-java",
+      "prompt": "Solve Word Break.",
+      "occurrences": [
+        {
+          "id": "AR-102",
+          "topic": "string-coding",
+          "original_topic": "string-coding",
+          "source": "AL02",
+          "source_item": "8",
+          "kind": "inherited-feed-note",
+          "prompt": "Solve Word Break.",
+          "also_from": [],
+          "owner": "coding-java"
+        }
+      ]
+    }
+  ]
+}
